@@ -1,0 +1,16 @@
+# Hound config - https://houndci.com/configuration
+# ------------------------------------------------
+# We try to follow the Thoughtbot style guides:
+# https://github.com/thoughtbot/guides
+
+javascript:
+  enabled: false
+
+jscs:
+  enabled: false
+
+ruby:
+  enabled: true
+
+scss:
+  config_file: .scss-lint.yml
