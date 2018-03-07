@@ -6,6 +6,9 @@ $heading-font-family: $base-font-family;
 $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
+// Font Sizes
+$base-font-size: 1em;
+
 // Other Sizes
 $base-border-radius: 3px;
 $base-spacing: 1.5em;
@@ -14,9 +17,13 @@ $base-z-index: 0;
 
 // Colors
 $blue: #1565c0;
+$black: #000;
+$very-dark-gray: #262626;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$white: #fff;
+$slightly-desaturated-orange: #d1b28b;
 
 // Font Colors
 $base-font-color: $dark-gray;

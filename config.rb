@@ -13,6 +13,14 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+activate :directory_indexes
+activate :sprockets
+
+set :relative_links, true
+set :css_dir, "stylesheets"
+set :js_dir, "javascripts"
+set :images_dir, "images"
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -31,11 +39,16 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+
+  # Active navigation items
+  def nav_link(link_text, url, options = {})
+    options[:class] ||= ""
+    options[:class] << " active" if url == current_page.url
+    link_to(link_text, url, options)
+  end
+
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

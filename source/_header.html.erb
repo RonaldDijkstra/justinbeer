@@ -1,0 +1,39 @@
+<header class="header">
+  <section class="navigation">
+    <div class="nav-container">
+
+      <div class="brand">
+        <a href="#">Just in Beer</a>
+      </div>
+
+      <nav>
+        <div class="nav-mobile">
+          <a class="nav-toggle" id="nav-toggle" href="#!">
+            <span></span>
+          </a>
+        </div>
+
+        <ul class="nav-list">
+          <li>
+            <%= nav_link "Home", "/" %>
+          </li>
+          <li>
+            <%= nav_link "Bier", "/assortiment/" %>
+          </li>
+          <!--
+          <li>
+            <a href="#!">Nieuws & Events</a>
+          </li>
+          -->
+          <li>
+            <%= nav_link "Over ons", "/over-ons/" %>
+          </li>
+          <li>
+            <%= nav_link "Contact", "/contact/" %>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </section>
+</header>

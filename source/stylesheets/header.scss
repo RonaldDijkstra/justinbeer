@@ -1,0 +1,171 @@
+// Navigation Variables
+$content-width: 1000px;
+$breakpoint: 799px;
+$nav-height: 70px;
+$nav-background: #262626;
+$nav-font-color: #ffffff;
+$link-hover-color: #2581DC;
+
+// Outer navigation wrapper
+.navigation {
+  background: $nav-background;
+  height: $nav-height;
+}
+
+// Logo and branding
+.brand {
+  float: left;
+  font-size: 1.4em;
+  line-height: $nav-height;
+  padding-left: 20px;
+  position: absolute;
+  text-transform: uppercase;
+
+  a,
+  a:visited {
+    color: $nav-font-color;
+    text-decoration: none;
+  }
+}
+
+// Container with no padding for navbar
+.nav-container {
+  @include outer-container;
+}
+
+// Navigation
+nav {
+  float: right;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      float: left;
+      position: relative;
+
+      a,
+      a:visited {
+        background: $nav-background;
+        color: $nav-font-color;
+        display: block;
+        line-height: $nav-height;
+        padding: 0 20px;
+        text-decoration: none;
+
+        &.active,
+        &:active,
+        &:focus,
+        &:hover {
+          background: $slightly-desaturated-orange;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// Dropdown list binds to JS toggle event
+.nav-dropdown {
+  box-shadow: 0 3px 12px rgba($black, 0.15);
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Mobile navigation */
+
+// Binds to JS Toggle
+.nav-mobile {
+  background: $nav-background;
+  display: none;
+  height: $nav-height;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: $nav-height;
+}
+
+@include media($medium-down) {
+  // Hamburger nav visible on mobile only
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    padding: $nav-height 0 0;
+    width: 100%;
+
+    ul {
+      display: none;
+
+      li {
+        float: none;
+
+        a {
+          line-height: 20px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  .nav-dropdown {
+    position: static;
+  }
+}
+
+@include media($medium-up) {
+  .nav-list {
+    display: block !important;
+  }
+}
+
+#nav-toggle {
+  cursor: pointer;
+  left: 18px;
+  padding: 10px 35px 16px 0;
+  position: absolute;
+  top: 22px;
+
+  span,
+  span:before,
+  span:after {
+    background: $nav-font-color;
+    border-radius: 1px;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 5px;
+    position: absolute;
+    transition: all 300ms ease-in-out;
+    width: 35px;
+  }
+
+  span::before {
+    top: -10px;
+  }
+
+  span::after {
+    bottom: -10px;
+  }
+
+  &.active span {
+    background-color: transparent;
+
+    &::before,
+    &::after {
+      top: 0;
+    }
+
+    &::before {
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+}
