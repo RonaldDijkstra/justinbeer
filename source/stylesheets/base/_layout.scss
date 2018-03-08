@@ -17,3 +17,22 @@ body {
 body {
   margin: 0;
 }
+
+body {
+  background: $white;
+  margin: 0;
+}
+
+section {
+  padding: 3em 0;
+
+  @include media($medium-up) {
+    padding: 4em 0;
+  }
+}
+
+.row {
+  @include outer-container;
+  padding: 0 1em;
+  position: relative;
+}
