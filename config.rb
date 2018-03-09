@@ -41,6 +41,24 @@ set :images_dir, "images"
 
 helpers do
 
+  # Use frontmatter for page titles
+  def page_title(page, appendCompanyName=true)
+    appendTitle = appendCompanyName ? " | JustinBeer.nl" : ""
+    return page.data.title + appendTitle if page.data.title
+    "Justinbeer.nl"
+  end
+
+  # Use frontmatter for meta description
+  def meta_description(page = current_page)
+    return page.data.description if page.data.description
+  end
+
+  # Use frontmatter for meta robots or use default
+  def robots(page = current_page)
+    return page.data.robots if page.data.robots
+    "noydir,noodp,index,follow"
+  end
+
   # Active navigation items
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
@@ -57,7 +75,7 @@ configure :development do
   activate :livereload
 end
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+end
