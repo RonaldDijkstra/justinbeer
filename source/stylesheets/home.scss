@@ -1,9 +1,12 @@
-.hero {
-  background-attachment: scroll;
-  background-color: $slightly-desaturated-orange;
-  background-image: url("../images/hero-home.jpg");
-  background-position: center;
-  background-size: cover;
-  padding: 10em 0;
-  text-align: center;
+body.index {
+  .hero {
+    background: url("../images/hero-home.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 10em 0;
+    text-align: center;
+
+    @include media($medium-up) {
+      background-size: cover;
+    }
+  }
 }
