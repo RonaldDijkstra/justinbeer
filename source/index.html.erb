@@ -18,15 +18,46 @@ description: Just in Beer is dé craft beer winkel van Groningen
     </p>
 
     <div class="offer-wrapper">
-      <div class="offer-item">
+
+      <div class="flex-item">
+        <% link_to("assortiment", class: "offer", alt: "Assortiment", style: "background-image: url(#{image_path("offer-assortiment-bg.jpg")})") do %>
+          <div class="offer-content">
+            <h3>
+              Assortiment
+            </h3>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="flex-item">
+        <% link_to("over-ons", class: "offer", alt: "Over ons", style: "background-image: url(#{image_path("offer-about-us-bg.jpg")})") do %>
+          <div class="offer-content">
+            <h3>
+              Over ons
+            </h3>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="flex-item">
+        <% link_to("contact", class: "offer", alt: "Contact", style: "background-image: url(#{image_path("offer-contact-bg.jpg")})") do %>
+          <div class="offer-content">
+            <h3>
+              Contact
+            </h3>
+          </div>
+        <% end %>
+      </div>
+
+      <!-- <a class="offer-item">
         <h3>Assortiment</h3>
-      </div>
-      <div class="offer-item">
+      </a>
+      <a class="offer-item">
         <h3>Events</h3>
-      </div>
-      <div class="offer-item">
+      </a>
+      <a class="offer-item">
         <h3>Over ons</h3>
-      </div>
+      </a> -->
     </div>
   </div>
 </section>

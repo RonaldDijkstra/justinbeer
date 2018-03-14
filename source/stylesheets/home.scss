@@ -1,16 +1,102 @@
 body.index {
   .hero {
-    background: url("../images/hero-home.jpg") no-repeat center center fixed;
+    background-attachment: fixed;
+    background-image: url("../images/hero-home.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 10em 0;
     text-align: center;
 
     @include media($medium-up) {
+      background-position: center center;
       background-size: cover;
+      padding: 10em 0;
+    }
+
+    img {
+      margin: 0 auto;
+      max-width: 160px;
+
+      @include media($medium-up) {
+        max-width: 320px;
+      }
     }
   }
 
   .introduction {
     text-align: center;
+
+    p {
+      margin: 0 auto 2em;
+      max-width: 640px;
+    }
+  }
+}
+
+.offer-wrapper {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+
+  .flex-item {
+    padding: $gutter / 4;
+    width: 100%;
+
+    @include media($medium-up) {
+      padding: $gutter / 3;
+      width: 33.33%;
+    }
+  }
+
+  .offer {
+    align-items: center;
+    background-color: $white;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 136px;
+    padding: 3em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 0.25em 0.5em rgba($black, 0.25);
+
+    &::before {
+      background-color: rgba($dark-gray, 0.65);
+      content: "";
+      display: flex;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: background 0.15s ease-in-out;
+      width: 100%;
+      z-index: 0;
+    }
+
+    &:hover::before {
+      background-color: rgba($dark-gray, 0.4);
+    }
+  }
+
+  .offer-content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+    h3 {
+      color: $white;
+      font-size: $base-font-size;
+      margin: 0;
+
+      @include media($xlarge-up) {
+        font-size: $base-font-size * 1.4;
+      }
+
+      @include media($medium-down) {
+        font-size: $base-font-size * 1.4;
+      }
+    }
   }
 }
