@@ -10,7 +10,6 @@ $link-hover-color: #2581DC;
 .navigation {
   background: $nav-background;
   height: $nav-height;
-  // z-index: 100;
 }
 
 // Logo and branding
@@ -36,12 +35,25 @@ $link-hover-color: #2581DC;
 
 // Navigation
 nav {
-  float: right;
+  @include media($medium-up) {
+    float: right;
+  }
 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    @include media($medium-down) {
+      background: $nav-background;
+      height: 100%;
+      margin-top: $nav-height;
+      overflow: auto;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 99;
+    }
 
     li {
       float: left;
@@ -73,7 +85,6 @@ nav {
   box-shadow: 0 3px 12px rgba($black, 0.15);
   display: none;
   position: absolute;
-  z-index: 1;
 }
 
 /* Mobile navigation */
@@ -122,6 +133,7 @@ nav {
 @include media($medium-up) {
   .nav-list {
     display: block !important;
+    z-index: 1000;
   }
 }
 
