@@ -60,6 +60,7 @@ body.index {
     position: relative;
     text-decoration: none;
     text-shadow: 0 0.25em 0.5em rgba($black, 0.25);
+    transition: transform 0.2s ease;
 
     &::before {
       background-color: rgba($dark-gray, 0.65);
@@ -72,6 +73,10 @@ body.index {
       transition: background 0.15s ease-in-out;
       width: 100%;
       z-index: 0;
+    }
+
+    &:hover {
+      transform: scale(1.02);
     }
 
     &:hover::before {
@@ -96,6 +101,44 @@ body.index {
 
       @include media($medium-down) {
         font-size: $base-font-size * 1.4;
+      }
+    }
+  }
+}
+
+.hop-into-the-grain {
+  background: $light-gray;
+
+  p {
+    margin-bottom: 2em;
+  }
+}
+
+.festival-wrapper {
+  @include media($medium-up) {
+    align-items: center;
+    display: flex;
+  }
+
+  .flex-item {
+    width: 100%;
+
+    @include media($medium-up) {
+      width: 50%;
+    }
+
+    &:first-child {
+      @include media($medium-up) {
+        padding-right: $gutter;
+      }
+    }
+
+    img {
+      margin: 0 auto;
+      width: 80%;
+
+      @include media($medium-up) {
+        width: 100%;
       }
     }
   }
