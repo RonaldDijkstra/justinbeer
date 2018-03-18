@@ -1,14 +1,15 @@
-(function ($) { // Begin jQuery
-  $(function () { // DOM ready
+// Mobile Navigation
+$('.mobile-toggle').click(function () {
+  if ($('.main_h').hasClass('open-nav')) {
+    $('.main_h').removeClass('open-nav');
+  } else {
+    $('.main_h').addClass('open-nav');
+  }
+});
 
-    // Toggle open and close nav styles on click
-    $('#nav-toggle').click(function () {
-      $('nav ul').slideToggle();
-    });
-
-    // Hamburger to X toggle
-    $('#nav-toggle').on('click', function () {
-      this.classList.toggle('active');
-    });
-  }); // end DOM ready
-})(jQuery); // end jQuery
+$('.main_h li a').click(function () {
+  if ($('.main_h').hasClass('open-nav')) {
+    $('.navigation').removeClass('open-nav');
+    $('.main_h').removeClass('open-nav');
+  }
+});

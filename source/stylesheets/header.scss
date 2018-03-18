@@ -1,178 +1,27 @@
-// Navigation Variables
-$content-width: 1000px;
-$breakpoint: 799px;
-$nav-height: 70px;
-$nav-background: #262626;
-$nav-font-color: #ffffff;
-$link-hover-color: #2581DC;
-
-// Outer navigation wrapper
-.navigation {
-  background: $nav-background;
-  height: $nav-height;
-}
-
-// Logo and branding
-.brand {
-  float: left;
-  font-size: 1.4em;
-  line-height: $nav-height;
-  padding-left: 20px;
-  position: absolute;
-  text-transform: uppercase;
-
-  a,
-  a:visited {
-    color: $nav-font-color;
-    text-decoration: none;
-  }
-}
-
-// Container with no padding for navbar
-.nav-container {
-  @include outer-container;
-}
-
-// Navigation
-nav {
-  @include media($medium-up) {
-    float: right;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    @include media($medium-down) {
-      background: $nav-background;
-      height: 100%;
-      margin-top: $nav-height;
-      overflow: auto;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 99;
-    }
-
-    li {
-      float: left;
-      position: relative;
-
-      a,
-      a:visited {
-        background: $nav-background;
-        color: $nav-font-color;
-        display: block;
-        line-height: $nav-height;
-        padding: 0 20px;
-        text-decoration: none;
-
-        &.active,
-        &:active,
-        &:focus,
-        &:hover {
-          background: $slightly-desaturated-orange;
-          color: $white;
-        }
-      }
-    }
-  }
-}
-
-// Dropdown list binds to JS toggle event
-.nav-dropdown {
-  box-shadow: 0 3px 12px rgba($black, 0.15);
-  display: none;
-  position: absolute;
-}
-
-/* Mobile navigation */
-
-// Binds to JS Toggle
-.nav-mobile {
-  background: $nav-background;
-  display: none;
-  height: $nav-height;
-  position: absolute;
-  right: 0;
+.main_h {
+  background-color: rgba($very-dark-gray, 0.93);
+  font-family: "Montserrat", sans-serif;
+  max-height: $nav-height;
+  overflow: hidden;
+  position: fixed;
   top: 0;
-  width: $nav-height;
+  transition: all 0.3s;
+  width: 100%;
+  z-index: 999;
 }
 
-@include media($medium-down) {
-  // Hamburger nav visible on mobile only
-  .nav-mobile {
-    display: block;
-  }
-
-  nav {
-    padding-top: $nav-height;
-    width: 100%;
-
-    ul {
-      display: none;
-      margin-bottom: 2em;
-
-      li {
-        float: none;
-
-        a {
-          line-height: 20px;
-          padding: 15px;
-        }
-      }
-    }
-  }
-
-  .nav-dropdown {
-    position: static;
-  }
+.header-container {
+  @include outer-container;
+  padding: 0 1em;
+  position: relative;
+  width: 100%;
 }
 
-@include media($medium-up) {
-  .nav-list {
-    display: block !important;
-    z-index: 1000;
-  }
-}
+.open-nav {
+  max-height: 400px;
 
-#nav-toggle {
-  cursor: pointer;
-  left: 18px;
-  padding: 10px 35px 16px 0;
-  position: absolute;
-  top: 22px;
-
-  span,
-  span:before,
-  span:after {
-    background: $nav-font-color;
-    border-radius: 1px;
-    content: "";
-    cursor: pointer;
-    display: block;
-    height: 5px;
-    position: absolute;
-    transition: all 300ms ease-in-out;
-    width: 35px;
-  }
-
-  span::before {
-    top: -10px;
-  }
-
-  span::after {
-    bottom: -10px;
-  }
-
-  &.active span {
+  .mobile-toggle span {
     background-color: transparent;
-
-    &::before,
-    &::after {
-      top: 0;
-    }
 
     &::before {
       transform: rotate(45deg);
@@ -180,6 +29,130 @@ nav {
 
     &::after {
       transform: rotate(-45deg);
+    }
+  }
+}
+
+.logo {
+  display: block;
+  float: none;
+  line-height: $nav-height;
+  margin-top: 0;
+  text-transform: uppercase;
+  width: 174px;
+
+  @include media($menu-desktop) {
+    float: left;
+  }
+
+  img {
+    height: 50px;
+    margin-top: 10px;
+  }
+}
+
+nav {
+  float: right;
+  width: 100%;
+
+  @include media($menu-desktop) {
+    width: 70%;
+  }
+
+  ul {
+    float: left;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+    @include media($menu-desktop) {
+      float: right;
+      text-align: right;
+    }
+  }
+
+  li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    @include media($menu-desktop) {
+      display: inline-block;
+      width: auto;
+    }
+  }
+
+  a {
+    color: $white;
+    display: block;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $nav-height;
+    padding: 0 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    @include media($menu-desktop) {
+      margin-right: -4px;
+    }
+
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      background: $slightly-desaturated-orange;
+      color: $white;
+    }
+  }
+}
+
+.mobile-toggle {
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: $nav-height;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  transition: all 200ms ease-in;
+  width: 30px;
+
+  @include media($menu-desktop) {
+    display: none;
+  }
+
+  span {
+    background-color: $white;
+    bottom: auto;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: background-color 0.3s ease;
+    width: 26px;
+
+    &::after,
+    &::before {
+      background-color: $white;
+      content: "";
+      height: 3px;
+      left: 0;
+      position: absolute;
+      transition: 0.3s;
+      width: 26px;
+    }
+
+    &::after {
+      transform: translateY(9px);
+    }
+
+    &::before {
+      transform: translateY(-9px);
     }
   }
 }

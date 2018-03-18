@@ -1,8 +1,14 @@
 ul,
 ol {
+  color: $dark-grayish-blue;
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  div.content & {
+    list-style-type: disc;
+    margin-left: 2em;
+  }
 }
 
 dl {

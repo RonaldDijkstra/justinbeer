@@ -1,34 +1,30 @@
-<header class="header">
-  <div class="navigation">
-    <div class="nav-container">
+<header class="main_h sticky">
+  <div class="header-container">
 
-      <div class="brand">
-        <a href="/">Just in Beer</a>
-      </div>
+    <a class="logo" href="/">
+      <%= image_tag "logo-just-in-beer-white.png", class: "Just in Beer", alt: "Just in Beer" %>
+    </a>
 
-      <nav>
-        <div class="nav-mobile">
-          <a class="nav-toggle" id="nav-toggle" href="#!">
-            <span></span>
-          </a>
-        </div>
+    <a class="mobile-toggle">
+      <span></span>
+    </a>
 
-        <ul class="nav-list">
-          <li>
-            <%= nav_link "Home", "/" %>
-          </li>
-          <li>
-            <%= nav_link "Assortiment", "/assortiment/" %>
-          </li>
-          <li>
-            <%= nav_link "Over ons", "/over-ons/" %>
-          </li>
-          <li>
-            <%= nav_link "Contact", "/contact/" %>
-          </li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li>
+          <%= nav_link "Home", "/" %>
+        </li>
+        <li>
+          <%= nav_link "Assortiment", "/assortiment/" %>
+        </li>
+        <li>
+          <%= nav_link "Over ons", "/over-ons/" %>
+        </li>
+        <li>
+          <%= nav_link "Contact", "/contact/" %>
+        </li>
+      </ul>
+    </nav>
 
-    </div>
   </div>
 </header>
