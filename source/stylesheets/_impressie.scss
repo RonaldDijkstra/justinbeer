@@ -1,0 +1,47 @@
+section.impression {
+
+  h2 {
+    text-align: center;
+  }
+
+  .impression-wrapper {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -($gutter / 5);
+
+    .impression-item {
+      padding: $gutter / 5;
+      width: 100%;
+
+      @include media($medium-up) {
+        width: 50%;
+
+        &:nth-child(4n+3):last-child {
+          width: 100%;
+        }
+      }
+
+      @include media($large-up) {
+        &:nth-child(4n+1),
+        &:nth-child(4n+4) {
+          width: 60%;
+        }
+
+        &:nth-child(4n+2),
+        &:nth-child(4n+3) {
+          width: 40%;
+        }
+      }
+    }
+
+    .impression-content {
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      height: 360px;
+      position: relative;
+      width: 100%;
+    }
+  }
+}
