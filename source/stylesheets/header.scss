@@ -19,6 +19,11 @@
 
 .open-nav {
   max-height: 400px;
+  padding-bottom: 2em;
+
+  @include media($medium-up) {
+    padding-bottom: 0;
+  }
 
   .mobile-toggle span {
     background-color: transparent;
@@ -36,8 +41,8 @@
 .logo {
   display: block;
   float: none;
-  line-height: $nav-height;
   margin-top: 0;
+  max-height: $nav-height;
   text-transform: uppercase;
   width: 174px;
 
@@ -64,12 +69,13 @@ nav {
     list-style: none;
     margin: 0;
     overflow: hidden;
-    padding: 0;
+    padding: 2em 0;
     text-align: center;
     width: 100%;
 
     @include media($menu-desktop) {
       float: right;
+      padding: 0;
       text-align: right;
     }
   }

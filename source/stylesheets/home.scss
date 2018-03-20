@@ -111,13 +111,16 @@ body.index {
   }
 
   .flex-item {
+    text-align: center;
     width: 100%;
 
     @include media($medium-up) {
-      width: 50%;
+      text-align: left;
+      width: 50%;  
     }
 
     &:first-child {
+
       @include media($medium-up) {
         padding-right: $gutter;
       }
