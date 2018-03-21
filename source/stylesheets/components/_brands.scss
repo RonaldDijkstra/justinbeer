@@ -21,7 +21,7 @@ section.brands {
     width: 50%;
 
     @include media($medium-up) {
-      width: calc(100% * (1/5) - 10px - 1px);
+      width: calc(100% * (1/6) - 10px - 1px);
     }
   }
 }

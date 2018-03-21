@@ -50,6 +50,7 @@ a {
 
   &:hover {
     color: shade($action-color, 25%);
+    text-decoration: none;
   }
 
   &:focus {
