@@ -1,35 +1,10 @@
 body.index {
   .hero {
-    background-attachment: fixed;
-    background-image: url("../images/hero-home.jpg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    text-shadow: 0 0.25em 0.5em rgba($black, 0.25);
-
-    &::before {
-      background-color: rgba($black, 0.5);
-      content: "";
-      display: flex;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      transition: background 0.15s ease-in-out;
-      width: 100%;
-      z-index: 0;
-    }
-
     .hero-content {
       position: relative;
       text-align: center;
       width: 100%;
       z-index: 1;
-    }
-
-    h1 {
-      color: $white;
     }
 
     img {
