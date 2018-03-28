@@ -1,5 +1,5 @@
 .hero {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-color: $light-gray;
   background-image: url("../images/hero-home.jpg");
   background-position: center bottom;
@@ -9,6 +9,10 @@
   position: relative;
   text-align: center;
   text-shadow: 0 0.25em 0.5em rgba($black, 0.25);
+
+  @include media($medium-up) {
+    background-attachment: fixed;
+  }
 
   &::before {
     background-color: rgba($black, 0.5);
