@@ -5,6 +5,8 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+set :full_url, "https://www.justinbeer.nl"
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -64,6 +66,11 @@ helpers do
     options[:class] ||= ""
     options[:class] << " active" if url == current_page.url
     link_to(link_text, url, options)
+  end
+
+  # Retrieve full_url
+  def full_url(url)
+    URI.join(config[:full_url], url).to_s
   end
 
 end
