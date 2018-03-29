@@ -7,8 +7,10 @@
     <title><%= page_title(current_page) %></title>
     <meta name="description" content="<%= h(meta_description) %>">
     <meta name="robots" content="<%= robots %>">
+    <%= partial "favicon" %>
     <%= stylesheet_link_tag "site" %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <%= partial "analytics" unless development? %>
   </head>
   <body class="<%= page_classes %>">
     <div class="main" role="main">
