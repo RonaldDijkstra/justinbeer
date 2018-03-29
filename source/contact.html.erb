@@ -13,10 +13,35 @@ description: Neem contact op
   </div>
 </section>
 
-<section class="content">
+<section class="contact-form">
   <div class="row">
     <article>
-      Content
+
+      <h2>
+        Neem contact op
+      </h2>
+
+      <p>
+        Heb je een vraag of opmerking? Zie je iets dat niet goed is aan deze website of mis je iets? <br />
+        Neem contact op met Just in Beer via onderstaand formulier.
+      </p>
+
+      <form class="form-contact" accept-charset="UTF-8" action="https://formspree.io/just_in_beer@hotmail.com" method="POST">
+        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="form" value="Contact">
+        <div class="form-name">
+          <input type="text" name="name" placeholder="Naam">
+        </div>
+        <div class="form-email">
+          <input type="email" name="email" placeholder="E-mail" required>
+        </div>
+        <div class="form-text">
+          <textarea rows="6" name="message" placeholder="Bericht"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="button big slightly-desaturated-orange">Verzenden</button>
+        </div>
+      </form>
     </article>
   </div>
 </section>
