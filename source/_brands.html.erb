@@ -36,8 +36,8 @@
       </div>
 
     </div>
-
-    <a href="/assortiment/" class="button big slightly-desaturated-orange">Meer over ons assortiment</a>
-
+    <% if current_page.url == "/" %>
+      <a href="/assortiment/" class="button big slightly-desaturated-orange">Meer over ons assortiment</a>
+    <% end %>
   </div>
 </section>
