@@ -1,0 +1,7 @@
+<meta property="og:site_name" content="Just in Beer">
+<meta property="og:title" content="<%= current_page.data.title %>">
+<meta property="og:url" content="<%= full_url(current_page.url) %>">
+<meta property="og:type" content="website">
+<meta property="og:description" content="<%= h(meta_description) %>">
+<meta property="og:image" content="<%= full_url(asset_url(current_page.data.image || "images/open-graph.jpg")) %>">
+<meta property="og:locale" content="nl_NL">
