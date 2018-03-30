@@ -4,10 +4,12 @@ footer.footer {
 
   h3 {
     color: $white;
+    font-size: $base-font-size * 1.4;
   }
 
   p {
     color: $medium-gray;
+    margin-bottom: 1em;
   }
 
   table {
