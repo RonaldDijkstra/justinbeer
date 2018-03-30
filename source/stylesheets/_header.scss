@@ -12,13 +12,9 @@
 
 .header-container {
   @include outer-container;
+  padding: 0 1em;
   position: relative;
-  padding-left: 1em;
   width: 100%;
-
-  @include media($large-up) {
-    padding: 0 1em;
-  }
 }
 
 .open-nav {
