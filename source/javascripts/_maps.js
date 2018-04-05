@@ -25,7 +25,7 @@ $(document).ready(function () {
       position: myLatlng,
       map: map,
       icon: imagePath,
-      title: 'Just in Beer Craft Beer Store"',
+      title: 'Just in Beer Craft Beer Store',
     });
 
     google.maps.event.addListener(marker, 'click', function () {
