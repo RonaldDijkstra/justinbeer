@@ -32,7 +32,7 @@ textarea {
 #{$all-text-inputs} {
   appearance: none;
   background-color: $_form-background-color;
-  border: $base-border;
+  border: 1px solid $medium-gray;
   border-radius: $base-border-radius;
   box-shadow: $_form-box-shadow;
   box-sizing: border-box;
