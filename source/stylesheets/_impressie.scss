@@ -1,5 +1,10 @@
 section.impression {
 
+  body.over-ons & {
+    background: $light-gray;
+    padding-bottom: 9em;
+  }
+
   h2 {
     text-align: center;
   }
