@@ -12,24 +12,16 @@ footer.footer {
     margin-bottom: 1em;
   }
 
-  table {
-    margin: 0;
-  }
-
-  tr {
-    border-bottom: 0;
-  }
-
-  td {
-    color: $medium-gray;
-    padding: 0;
-  }
-
   .footer-wrapper {
     align-items: stretch;
     display: flex;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
     margin: -($gutter / 5);
+
+    @include media($medium-up) {
+      flex-direction: row;
+    }
   }
 
   .flex-item {
@@ -38,6 +30,7 @@ footer.footer {
 
     &:first-child {
       @include media($medium-up) {
+        padding-right: 3em;
         width: 66%;
       }
     }
@@ -45,6 +38,22 @@ footer.footer {
     &:last-child {
       @include media($medium-up) {
         width: 33%;
+      }
+    }
+  }
+
+  .opening-hours {
+    color: $medium-gray;
+
+    .highlight {
+      color: $white;
+    }
+
+    span {
+      display: inline-block;
+
+      &.day {
+        min-width: 120px;
       }
     }
   }
