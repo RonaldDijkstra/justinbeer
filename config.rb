@@ -45,9 +45,9 @@ helpers do
 
   # Use frontmatter for page titles
   def page_title(page, appendCompanyName=true)
-    appendTitle = appendCompanyName ? " » Just in Beer" : ""
+    appendTitle = appendCompanyName ? " | Just in Beer | Speciaalbier" : ""
     return page.data.title + appendTitle if page.data.title
-    "Justinbeer.nl"
+    "De beste speciaalbierwinkel van Groningen | Just in Beer"
   end
 
   # Use frontmatter for meta description
