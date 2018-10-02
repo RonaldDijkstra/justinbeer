@@ -18,7 +18,7 @@
 }
 
 .open-nav {
-  max-height: 400px;
+  max-height: 600px;
   padding-bottom: 2em;
 
   @include media($medium-up) {
@@ -88,6 +88,12 @@ nav {
     @include media($menu-desktop) {
       display: inline-block;
       width: auto;
+    }
+  }
+
+  .facebook {
+    @include media($menu-desktop) {
+      display: none;
     }
   }
 
