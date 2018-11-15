@@ -10,6 +10,7 @@ set :full_url, "https://www.justinbeer.nl"
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
