@@ -19,5 +19,5 @@ gem 'html-proofer' # Test HTML Output
 
 # Frontend
 source 'https://rails-assets.org' do
-  gem 'rails-assets-jquery', '~> 2.2.4'
+  gem 'rails-assets-jquery', '~> 3.3.1'
 end

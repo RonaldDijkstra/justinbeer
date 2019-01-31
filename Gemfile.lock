@@ -133,7 +133,7 @@ GEM
     rack (2.0.4)
     rack-livereload (0.3.16)
       rack
-    rails-assets-jquery (2.2.4)
+    rails-assets-jquery (3.3.1)
     rake (12.3.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -169,7 +169,7 @@ DEPENDENCIES
   middleman-livereload
   middleman-sprockets
   neat (~> 1.7.2)
-  rails-assets-jquery (~> 2.2.4)!
+  rails-assets-jquery (~> 3.3.1)!
   rake
 
 BUNDLED WITH
