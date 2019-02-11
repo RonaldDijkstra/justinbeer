@@ -56,12 +56,12 @@
   }
 }
 
-nav {
+nav.header {
   float: right;
   width: 100%;
 
   @include media($menu-desktop) {
-    width: 70%;
+    width: 80%;
   }
 
   ul {
