@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Middleman
-gem 'middleman', '~> 4.2'
+gem 'middleman', '~> 4.3'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-livereload'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
