@@ -1,12 +1,9 @@
-# Wild Festival Groningen 2019 #WFG
+# Just in Beer - Craft Beer Store in Groningen
 
-[![CircleCI branch](https://img.shields.io/circleci/project/github/RonaldDijkstra/wildfestivalgroningen/master.svg)](https://circleci.com/gh/RonaldDijkstra/wildfestivalgroningen) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a564ece-5dea-4338-b9b1-333824808bbb/deploy-status)](https://app.netlify.com/sites/wildfestivalgroningen/deploys)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=RonaldDijkstra/wildfestivalgroningen)](https://dependabot.com)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/RonaldDijkstra/justinbeer/master.svg)](https://circleci.com/gh/RonaldDijkstra/justinbeer)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=RonaldDijkstra/justinbeer)](https://dependabot.com)
 
-A website for a beer festival dedicated to spontaneous, wild fermentation.
-Expect a great line-up with fantastic beer (and other wild drinks) and delicious food.
-
-Saturday the 23th of November 2019 @ EM2 Groningen, The Netherlands.
+A website for a craft beer store dedicated to selling great beer. Just in Beer is located in Groningen, The Netherlands.
 
 ## About this website
 
