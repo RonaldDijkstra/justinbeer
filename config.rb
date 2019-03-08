@@ -1,94 +1,59 @@
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
+# frozen_string_literal: true
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
-end
+# Determine root locale
+root_locale = (ENV["LOCALE"] ? ENV["LOCALE"].to_sym : :nl)
+# Accessible as `root_locale` in helpers and `config[:root_locale]` in templates
+set :root_locale, root_locale
 
-set :full_url, "https://www.justinbeer.nl"
-
-# Layouts
-# https://middlemanapp.com/basics/layouts/
-
-# Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
-
+# Activate i18n for root locale
+activate :i18n, mount_at_root: root_locale, langs: %i[nl en]
+activate :autoprefixer
 activate :directory_indexes
+activate :inline_svg
 activate :sprockets
 
-set :relative_links, true
-set :css_dir, "stylesheets"
-set :js_dir, "javascripts"
-set :images_dir, "images"
+# Ignore the selection file for Icomoon
+ignore "assets/fonts/selection.json"
 
-# With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
+set :css_dir, "assets/stylesheets"
+set :fonts_dir, "assets/fonts"
+set :images_dir, "assets/images"
+set :js_dir, "assets/javascripts"
+set :markdown,
+  autolink: true,
+  fenced_code_blocks: true,
+  footnotes: true,
+  highlight: true,
+  smartypants: true,
+  strikethrough: true,
+  tables: true,
+  with_toc_data: true
+set :markdown_engine, :redcarpet
 
-# Proxy pages
-# https://middlemanapp.com/advanced/dynamic-pages/
-
-# proxy(
-#   '/this-page-has-no-template.html',
-#   '/template-file.html',
-#   locals: {
-#     which_fake_page: 'Rendering a fake page with a local variable'
-#   },
-# )
-
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
-
-helpers do
-
-  # Use frontmatter for page titles
-  def page_title(page, appendCompanyName=true)
-    appendTitle = appendCompanyName ? " | Just in Beer | Speciaalbier" : ""
-    return page.data.title + appendTitle if page.data.title
-    "De beste speciaalbierwinkel van Groningen | Just in Beer"
-  end
-
-  # Use frontmatter for meta description
-  def meta_description(page = current_page)
-    return page.data.description if page.data.description
-  end
-
-  # Use frontmatter for meta robots or use default
-  def robots(page = current_page)
-    return page.data.robots if page.data.robots
-    "noydir,noodp,index,follow"
-  end
-
-  # Active navigation items
-  def nav_link(link_text, url, options = {})
-    options[:class] ||= ""
-    options[:class] << " active" if url == current_page.url
-    link_to(link_text, url, options)
-  end
-
-  # Retrieve full_url
-  def full_url(url)
-    URI.join(config[:full_url], url).to_s
-  end
-
+activate :blog do |blog|
+  blog.name = "menu"
+  blog.sources = "/menu/:lang/:title.html"
+  blog.permalink = ":lang/beers/:title"
+  blog.paginate = true
+  blog.page_link = "{num}"
+  blog.per_page = 50
 end
 
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+# Without layout
+page "/*.json", layout: false
+page "/*.txt", layout: false
+page "/*.xml", layout: false
 
-configure :development do
-  activate :livereload
-end
-
-configure :build do
+# Settings for production
+configure :production do
+  activate :asset_hash
+  activate :gzip
   activate :minify_css
+  activate :minify_html
   activate :minify_javascript
-  activate :asset_hash, ignore: ["images/open-graph.jpg"]
-end
 
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.remote = "git@github.com:RonaldDijkstra/justinbeer.git"
+  # Raise exception for missing translations during build
+  require "lib/test_exception_localization_handler"
+
+  I18n.exception_handler = TestExceptionLocalizationHandler.new
 end

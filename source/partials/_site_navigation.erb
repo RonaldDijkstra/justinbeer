@@ -1,0 +1,52 @@
+<nav class="site-navigation" role="navigation">
+  <div class="logo">
+    <% link_to("/", relative: false, class: "root-link home") do %>
+        <%= inline_svg "logo-just-in-beer.svg", alt: "Logo Just in Beer", class: "logo-desktop" %>
+        <span class="logo-mobile">
+          <%= data.site.name %>
+        </span>
+    <% end %>
+  </div>
+
+  <a id="mobile-toggle" class="mobile-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+
+  <div class="navigation-bar">
+    <ul class="menu">
+      <li>
+        <%= current_link_to t("navigation.index"), "/index.html", relative: false, class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.menu"), "/menu.html", class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.about"), "/over.html", class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.contact"), "/contact.html", class: "root-link" %>
+      </li>
+      <li>
+        <% if I18n.locale == :nl %>
+          <a href="/en/" class="language-link">
+            <%= inline_svg "en.svg", alt: "English" %>
+            <span>English</span>
+          </a>
+        <% elsif I18n.locale == :en %>
+          <a href="/" class="language-link">
+            <%= inline_svg "nl.svg", alt: "Nederlands" %>
+            <span>Nederlands</span>
+          </a>
+        <% end %>
+      </li>
+    </ul>
+    <div class="social-links">
+      <a href="https://www.untappd.com" class="icon-untappd" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.facebook.com" class="icon-facebook" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.instagram.com/bierselectgroningen/" class="icon-instagram" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.twitter.com" class="icon-twitter" target="_blank" rel="noopener noreferrer"></a>
+    </div>
+  </div>
+</nav>

@@ -1,20 +1,59 @@
-## Just in Beer
+# Wild Festival Groningen 2019 #WFG
 
-Repository for a craft beer store website: https://www.justinbeer.nl
+[![CircleCI branch](https://img.shields.io/circleci/project/github/RonaldDijkstra/wildfestivalgroningen/master.svg)](https://circleci.com/gh/RonaldDijkstra/wildfestivalgroningen) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a564ece-5dea-4338-b9b1-333824808bbb/deploy-status)](https://app.netlify.com/sites/wildfestivalgroningen/deploys)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=RonaldDijkstra/wildfestivalgroningen)](https://dependabot.com)
 
-Built with [Middleman](https://github.com/middleman/middleman), hand-crafted frontend development.
+A website for a beer festival dedicated to spontaneous, wild fermentation.
+Expect a great line-up with fantastic beer (and other wild drinks) and delicious food.
 
-### Dependencies
+Saturday the 23th of November 2019 @ EM2 Groningen, The Netherlands.
 
-- Ruby 2.3.3 (install with [rbenv](https://github.com/sstephenson/rbenv))
-- Bundler
+## About this website
 
-To install other dependencies run `bundle install` from the root of the project.
+This website is built with [Middleman](https://middlemanapp.com/) with [Middleman Template by ThoughtBot](https://github.com/thoughtbot/middleman-template) and is multilanguage ready. This website is deployed with and to [Netlify](https://www.netlify.com/).  
 
-### Serve
+## Before Setup
 
-Start server with `rake serve` and browse to [http://localhost:4567](http://localhost:4567).
+-   Install [Homebrew](https://brew.sh/index_nl)
 
-### Thanks to
+    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)`
 
-- [Middleman](https://middlemanapp.com/)
+-   Install [rbenv](https://github.com/rbenv/rbenv) with [ruby-build](https://github.com/rbenv/ruby-build)
+
+    `brew install rbenv ruby-build`
+
+-   Install Ruby 2.6.0
+
+    `rbenv install 2.6.0`
+
+## Setup & Serve
+
+After you have cloned this repo, follow these steps to run the website:
+
+-   Run the setup script to set up your machine with the necessary dependencies:
+
+    ```bash
+    bin/setup
+    ```
+
+-   Start the Middleman server.
+
+    ```bash
+    rake serve
+    ```
+
+    You should now be able to view the website at <http://localhost:4567>.
+
+## Build & Proof
+
+-   Build
+
+    ```bash
+    rake build
+    ```
+
+-   Proof
+
+    ```bash
+    rake proof
+    ```

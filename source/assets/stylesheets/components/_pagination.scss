@@ -1,0 +1,89 @@
+.pagination {
+  padding-bottom: 4em;
+  padding-top: 4em;
+  text-align: center;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+
+    li {
+      flex: 3;
+
+      @include grid-media($for-desktop-up) {
+        flex: 0;
+      }
+
+      &.item {
+        display: none;
+
+        @include grid-media($for-desktop-up) {
+          display: inline-block;
+        }
+      }
+
+      &.pages {
+        flex: 6;
+
+        @include grid-media($for-desktop-up) {
+          display: none;
+        }
+
+        span {
+          color: $medium-gray;
+        }
+      }
+
+      &.current span {
+        background-color: $blue;
+        border-color: $blue;
+        color: $white;
+      }
+
+      &.disabled span {
+        color: $base-border-color;
+      }
+
+      a,
+      span {
+        background-color: $white;
+        border: 1px solid $base-border-color;
+        display: block;
+        font-size: $base-font-size;
+        line-height: 3em;
+        margin-left: -1px;
+        padding: 0.5em 1em;
+
+        @include grid-media($for-desktop-up) {
+          padding: 0 1em;
+        }
+      }
+
+      a {
+        color: $blue;
+        text-decoration: none;
+
+        &:active,
+        &:focus,
+        &:hover {
+          background: $lighter-gray;
+        }
+      }
+
+      &:first-child a,
+      &:first-child span {
+        border-bottom-left-radius: $base-border-radius;
+        border-top-left-radius: $base-border-radius;
+      }
+
+      &:last-child a,
+      &:last-child span {
+        border-bottom-right-radius: $base-border-radius;
+        border-top-right-radius: $base-border-radius;
+      }
+    }
+  }
+}

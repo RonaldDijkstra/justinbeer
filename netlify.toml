@@ -1,0 +1,10 @@
+[build]
+  command = "rake build"
+  publish = "build/"
+[template.environment]
+  SEGMENT_KEY = "change me to your Segment API key"
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/404.html"
+  status = 404

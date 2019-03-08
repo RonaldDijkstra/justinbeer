@@ -1,0 +1,64 @@
+header {
+  $banner-image: "../images/banner-homepage.jpg";
+
+  background: url($banner-image) no-repeat center center fixed;
+  background-attachment: scroll;
+  background-size: cover;
+  color: $white;
+  padding: 0 $base-spacing;
+
+  @include grid-media($for-desktop-up) {
+    padding: 0;
+  }
+
+  &.variant-big {
+    text-align: center;
+
+    .grid-row {
+      padding: 6em 0;
+    }
+
+    h1 {
+      font-size: $base-font-size * 2.6;
+
+      @include grid-media($for-desktop-up) {
+        font-size: $base-font-size * 3;
+      }
+
+      span {
+        display: block;
+
+        @include grid-media($for-desktop-up) {
+          display: inline-block;
+        }
+
+        &.divider {
+          display: none;
+
+          @include grid-media($for-desktop-up) {
+            display: inline-block;
+            margin-left: 0.2em;
+            margin-right: 0.2em;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  &.variant-normal {
+    text-align: center;
+
+    .grid-row {
+      padding: 3em 0;
+    }
+
+    h1 {
+      font-size: $base-font-size * 2;
+
+      span {
+        display: block;
+      }
+    }
+  }
+}
