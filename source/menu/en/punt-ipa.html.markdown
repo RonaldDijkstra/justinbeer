@@ -1,6 +1,6 @@
 ---
 title: "IPA"
-date: 2019-02-07T10:03:39.520053Z
+date: 2019-02-07T14:15:29.555983Z
 style: "IPA - American"
 brewery: "PUNT."
 image: "https://labels.untappd.com/labels/2931528"
