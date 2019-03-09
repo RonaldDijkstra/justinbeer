@@ -44,3 +44,15 @@
         title: "Menu"
       thanks:
         title: "Bedankt!"
+    partials:
+      opening-hours:
+        title: "Openingstijden"
+        closed: "Gesloten"
+        days:
+          monday: "Maandag"
+          tuesday: "Dinsdag"
+          wednesday: "Woensdag"
+          thursday: "Thursday"
+          friday: "Vrijdag"
+          saturday: "Zaterdag"
+          sunday: "Zondag"

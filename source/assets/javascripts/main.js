@@ -3,3 +3,4 @@
 
 //= require _navigation-toggle
 //= require _maps
+//= require _opening-hours

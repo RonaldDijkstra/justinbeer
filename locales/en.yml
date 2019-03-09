@@ -53,3 +53,15 @@
         title: "Menu"
       thanks:
         title: "Thanks!"
+    partials:
+      opening-hours:
+        title: "Opening Hours"
+        closed: "Closed"
+        days:
+          monday: "Monday"
+          tuesday: "Tuesday"
+          wednesday: "Wednesday"
+          thursday: "Thursday"
+          friday: "Friday"
+          saturday: "Saturday"
+          sunday: "Sunday"
