@@ -1,6 +1,6 @@
 ---
 title: "Punk IPA"
-date: 2019-02-08T17:01:30.907509Z
+date: 2019-02-10T12:23:18.184707Z
 style: "IPA - American"
 brewery: "BrewDog"
 image: "https://labels.untappd.com/labels/5702"
