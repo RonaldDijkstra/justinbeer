@@ -1,0 +1,25 @@
+<header class="banner <%= variant %> <%= locals[:variant_overlay] %>" role="banner">
+
+  <% if locals[:title] || locals[:text] || (locals[:button_link] && locals[:button_text]) %>
+    <div class="grid-row">
+
+      <% if locals[:title] %>
+        <%= content_tag title_tag ||= :h1, class: "title" do title end %>
+      <% end %>
+
+      <% if locals[:text] %>
+        <p class="text">
+          <%= text %>
+        </p>
+      <% end %>
+
+      <% if locals[:button_link] && locals[:button_text] %>
+        <%= partial "partials/button", locals: { to: button_link,
+                                                 text: button_text,
+                                                 # icon_left: "images/icons/_phone.svg",
+                                                 variant: button_variant } %>
+      <% end %>
+
+    </div>
+  <% end %>
+</header>

@@ -1,4 +1,4 @@
-header {
+header.banner {
   $banner-image: "../images/banner-homepage.jpg";
 
   background: url($banner-image) no-repeat center center fixed;
@@ -6,9 +6,25 @@ header {
   background-size: cover;
   color: $white;
   padding: 0 $base-spacing;
+  position: relative;
 
   @include grid-media($for-desktop-up) {
     padding: 0;
+  }
+
+  &.primary-overlay {
+    &::before {
+      background-color: rgba($black, 0.5);
+      content: "";
+      display: flex;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: background 0.15s ease-in-out;
+      width: 100%;
+      z-index: 0;
+    }
   }
 
   &.variant-big {
@@ -16,6 +32,8 @@ header {
 
     .grid-row {
       padding: 6em 0;
+      position: relative;
+      z-index: 999;
     }
 
     h1 {

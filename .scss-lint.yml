@@ -1,7 +1,10 @@
 # Default application configuration that all configurations inherit from.
 
 scss_files: "**/*.scss"
-
+exclude:
+  - "source/assets/stylesheets/reset/_normalize.scss"
+  - "source/assets/stylesheets/components/_buttons.scss"
+  - "source/assets/stylesheets/components/_icons.scss"
 severity: warning
 
 linters:

@@ -5,5 +5,16 @@ description:
 sitemap_priority: 1
 ---
 
-<%= partial "homepage/banner" %>
-<%= partial "homepage/location" %>
+<%= partial "partials/banner", locals: { variant: "variant-big",
+                                         variant_overlay: "primary-overlay",
+                                         title: t("pages.index.banner.title"),
+                                         text: t("pages.index.banner.text"),
+                                         button_link: "menu.html",
+                                         button_text: t("pages.index.banner.button_text"),
+                                         button_variant: "white ghost big" } %>
+
+<%= partial "homepage/introduction" %>
+<%= partial "homepage/impression" %>
+<%= partial "homepage/latest-menu-update" %>
+<%= partial "homepage/opening-hours" %>
+<%= partial "homepage/maps" %>
