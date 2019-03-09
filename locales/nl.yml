@@ -13,7 +13,9 @@
       submit: "Verstuur"
     navigation:
       about: "Over ons"
+      assortment: "Assortiment"
       contact: "Contact"
+      events: "Events"
       index: "Home"
       menu: "Menu"
     # Pages

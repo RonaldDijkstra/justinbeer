@@ -4,6 +4,7 @@
 
     # Path translations
     paths:
+      assortiment: "assortment"
       bedankt: "thanks"
       contact: "contact"
       deelnemers: "participators"
@@ -20,7 +21,9 @@
       submit: "Submit"
     navigation:
       about: "About"
+      assortment: "Assortment"
       contact: "Contact"
+      events: "Events"
       index: "Home"
       menu: "Menu"
       participators: "Participators"
