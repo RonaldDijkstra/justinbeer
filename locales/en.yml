@@ -7,11 +7,8 @@
       assortiment: "assortment"
       bedankt: "thanks"
       contact: "contact"
-      deelnemers: "participators"
-      organisatie: "organisation"
-      over: "about"
-      programma: "program"
-      tickets: "tickets"
+      over-ons: "about-us"
+      # menu: "beerlist"
     site:
       description: "The craft beer store of Groningen with the largest and best assortment. We are open from Tuesday to Sunday."
     form:
@@ -20,7 +17,7 @@
       name: "Your name"
       submit: "Submit"
     navigation:
-      about: "About"
+      about-us: "About us"
       assortment: "Assortment"
       contact: "Contact"
       events: "Events"

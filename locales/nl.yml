@@ -12,7 +12,7 @@
       name: "Je naam"
       submit: "Verstuur"
     navigation:
-      about: "Over ons"
+      about-us: "Over ons"
       assortment: "Assortiment"
       contact: "Contact"
       events: "Events"
@@ -22,7 +22,7 @@
     pages:
       404:
         title: "404 - pagina niet gevonden"
-      about:
+      about-us:
         title: "Over ons"
       assortment:
         title: "Assortiment"
