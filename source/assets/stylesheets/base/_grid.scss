@@ -8,3 +8,7 @@ $for-desktop-up: (
   max-width: 960px;
   padding: 2em $base-spacing;
 }
+
+.single-col .grid-row {
+  max-width: 800px;
+}
