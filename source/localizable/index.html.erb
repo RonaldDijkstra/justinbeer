@@ -13,8 +13,13 @@ sitemap_priority: 1
                                          button_text: t("pages.index.banner.button_text"),
                                          button_variant: "white ghost big" } %>
 
-<%= partial "homepage/introduction" %>
-<%= partial "homepage/impression" %>
-<%= partial "homepage/latest-menu-update" %>
-<%= partial "homepage/opening-hours" %>
+<section class="introduction">
+  <div class="grid-row">
+    <%= partial "homepage/content" %>
+  </div>
+</section>
+
+<%= partial "partials/impression" %>
+<%= partial "partials/latest-menu-update" %>
+<%= partial "partials/opening-hours" %>
 <%= partial "partials/maps" %>

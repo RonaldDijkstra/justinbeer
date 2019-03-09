@@ -42,10 +42,9 @@
       index:
         banner:
           title: "Welcome to Just in Beer"
-        sections:
-          location:
-            text: "Here a map"
-            title: "Location"
+          text: "The best craft beer store in Groningen"
+          button_text: "Menu"
+          button_link: "menu.html"
       menu:
         latest_update: "Latest update"
         more_info: "More info"

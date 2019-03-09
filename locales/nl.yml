@@ -36,10 +36,6 @@
           text: "De beste speciaalbierwinkel van Groningen"
           button_text: "Menu"
           button_link: "menu.html"
-        sections:
-          location:
-            text: "Hier komt de kaart"
-            title: "Locatie"
       menu:
         latest_update: "Laatste update"
         more_info: "Meer info"
