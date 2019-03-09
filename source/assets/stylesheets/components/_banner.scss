@@ -1,7 +1,5 @@
 header.banner {
-  $banner-image: "../images/banner-homepage.jpg";
-
-  background: url($banner-image) no-repeat center center fixed;
+  background: $slightly-desaturated-orange no-repeat center center fixed;
   background-attachment: scroll;
   background-size: cover;
   color: $white;
@@ -48,21 +46,6 @@ header.banner {
 
       span {
         display: block;
-
-        @include grid-media($for-desktop-up) {
-          display: inline-block;
-        }
-
-        &.divider {
-          display: none;
-
-          @include grid-media($for-desktop-up) {
-            display: inline-block;
-            margin-left: 0.2em;
-            margin-right: 0.2em;
-            text-align: center;
-          }
-        }
       }
     }
   }

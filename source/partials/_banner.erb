@@ -1,4 +1,4 @@
-<header class="banner <%= variant %> <%= locals[:variant_overlay] %>" role="banner">
+<header class="banner <%= variant %> <%= locals[:variant_overlay] %>" role="banner" style="background-image: url(<%= image_path(locals[:background_image] || "banner-default.jpg") %>)">
 
   <% if locals[:title] || locals[:text] || (locals[:button_link] && locals[:button_text]) %>
     <div class="grid-row">
