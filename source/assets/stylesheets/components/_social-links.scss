@@ -23,17 +23,17 @@
     padding: $base-spacing * 0.4;
 
     @include grid-media($for-desktop-up) {
-      background-color: $dark-gray;
+      background-color: $slightly-desaturated-orange;
       color: $white;
       font-size: 1em;
       margin: 0 0.1em;
     }
 
     &:hover {
-      background-color: lighten($brown, 50%);
+      background-color: lighten($dark-gray, 50%);
 
       @include grid-media($for-desktop-up) {
-        background-color: darken($dark-gray, 10%);
+        background-color: darken($slightly-desaturated-orange, 10%);
       }
     }
   }

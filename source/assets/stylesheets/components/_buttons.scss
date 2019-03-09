@@ -52,7 +52,7 @@
   }
 
   &.brown {
-    @include button($brown);
+    @include button($slightly-desaturated-orange);
   }
 
   &.orange {

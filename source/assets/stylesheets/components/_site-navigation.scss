@@ -167,19 +167,17 @@
         text-transform: uppercase;
 
         @include grid-media($for-desktop-up) {
-          background: linear-gradient($action-color, $action-color);
+          background: linear-gradient($slightly-desaturated-orange, $slightly-desaturated-orange);
           background-position: 0 3em;
           background-repeat: no-repeat;
           background-size: 100% 0.1em;
           border-bottom: 0;
           color: $dark-gray;
           display: block;
-          //transition: background-position 200ms ease;
 
           &:hover {
-            //background: linear-gradient($action-color, $action-color);
             background-position: 0 bottom;
-            color: $action-color;
+            color: $slightly-desaturated-orange;
             text-decoration: none;
           }
 
@@ -199,11 +197,11 @@
         &[aria-current]:not([aria-current="false"]) {
           background-color: $white;
           background-position: 0 bottom;
-          color: $action-color;
+          color: $slightly-desaturated-orange;
           font-weight: $font-weight-semibold;
 
           @include grid-media($for-desktop-up) {
-            color: $action-color;
+            color: $slightly-desaturated-orange;
             font-weight: $font-weight-small;
           }
         }
