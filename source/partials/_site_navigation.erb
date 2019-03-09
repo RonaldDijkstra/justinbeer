@@ -35,12 +35,12 @@
         <%= current_link_to t("navigation.contact"), "/contact.html", class: "root-link" %>
       </li>
       <li>
-        <% if I18n.locale == :nl %>
+        <% if lang == :nl %>
           <a href="/en/" class="language-link">
             <%= inline_svg "en.svg", alt: "English" %>
             <span>English</span>
           </a>
-        <% elsif I18n.locale == :en %>
+        <% elsif lang == :en %>
           <a href="/" class="language-link">
             <%= inline_svg "nl.svg", alt: "Nederlands" %>
             <span>Nederlands</span>
@@ -49,10 +49,9 @@
       </li>
     </ul>
     <div class="social-links">
-      <a href="https://www.untappd.com" class="icon-untappd" target="_blank" rel="noopener noreferrer"></a>
-      <a href="https://www.facebook.com" class="icon-facebook" target="_blank" rel="noopener noreferrer"></a>
-      <a href="https://www.instagram.com/bierselectgroningen/" class="icon-instagram" target="_blank" rel="noopener noreferrer"></a>
-      <a href="https://www.twitter.com" class="icon-twitter" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://untappd.com/v/just-in-beer/5974495" class="icon-untappd" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.facebook.com/Just.in.Beer.Groningen/" class="icon-facebook" target="_blank" rel="noopener noreferrer"></a>
+      <a href="https://www.instagram.com/just_in_beer/" class="icon-instagram" target="_blank" rel="noopener noreferrer"></a>
     </div>
   </div>
 </nav>
