@@ -5,7 +5,9 @@ title:
 robots: noindex,nofollow
 ---
 
-<%= partial "bedankt/banner" %>
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         title: t("pages.thanks.title")} %>
 
 <section class="content">
   <div class="grid-row">

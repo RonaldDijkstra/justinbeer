@@ -32,10 +32,16 @@
       tickets: "Tickets"
     # Pages
     pages:
+      404:
+        title: "404 - page not found"
       about:
         title: "About Just in Beer"
+      assortment:
+        title: "Assortment"
       contact:
         title: "Contact"
+      events:
+        title: "Events"
       index:
         banner:
           title: "Welcome to Just in Beer"

@@ -7,13 +7,9 @@ blog: menu
 pageable: true
 ---
 
-<header class="banner variant-normal" role="banner">
-  <div class="grid-row">
-    <h1>
-      Menu
-    </h1>
-  </div>
-</header>
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         title: t("pages.menu.title")} %>
 
 <section class="untappd-menu">
   <div class="grid-row">

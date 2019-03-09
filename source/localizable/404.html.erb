@@ -6,10 +6,6 @@ robots: noindex,nofollow
 directory_index: false
 ---
 
-<header class="banner variant-normal" role="banner">
-  <div class="grid-row">
-    <h1>
-      404
-    </h1>
-  </div>
-</header>
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         title: t("pages.404.title")} %>

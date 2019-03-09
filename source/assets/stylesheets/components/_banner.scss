@@ -27,13 +27,16 @@ header.banner {
     }
   }
 
+  .grid-row {
+    position: relative;
+    z-index: 1;
+  }
+
   &.variant-big {
     text-align: center;
 
     .grid-row {
       padding: 6em 0;
-      position: relative;
-      z-index: 999;
     }
 
     h1 {

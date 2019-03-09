@@ -20,10 +20,16 @@
       menu: "Menu"
     # Pages
     pages:
+      404:
+        title: "404 - pagina niet gevonden"
       about:
         title: "Over ons"
+      assortment:
+        title: "Assortiment"
       contact:
         title: "Contact"
+      events:
+        title: "Events"
       index:
         banner:
           title: "Welkom bij Just in Beer"
