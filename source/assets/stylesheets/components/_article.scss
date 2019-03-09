@@ -3,4 +3,16 @@ article {
     list-style: disc;
     margin-left: 2em;
   }
+
+  h2 {
+    font-size: $base-font-size * 1.25;
+  }
+
+  h3 {
+    font-size: $base-font-size * 1.1;
+  }
+
+  p {
+    margin-bottom: 1.5em;
+  }
 }
