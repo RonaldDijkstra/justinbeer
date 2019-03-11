@@ -10,7 +10,7 @@ gem 'middleman-sprockets'
 # Bitters, Need, Bourbon
 gem 'bitters'
 gem 'bourbon'
-gem 'neat', '~> 1.7.2'
+gem 'neat', '~> 3.0.1'
 
 # Others
 gem 'rake'
