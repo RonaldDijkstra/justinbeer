@@ -20,7 +20,7 @@
       menu: "Menu"
     # Pages
     pages:
-      404:
+      x404:
         title: "404 - pagina niet gevonden"
       about-us:
         title: "Over ons"

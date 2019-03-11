@@ -29,7 +29,7 @@
       tickets: "Tickets"
     # Pages
     pages:
-      404:
+      x404:
         title: "404 - page not found"
       about-us:
         title: "About Just in Beer"
