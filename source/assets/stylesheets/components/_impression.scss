@@ -1,7 +1,10 @@
 section.impression {
-
   h2 {
     text-align: center;
+  }
+
+  &.variant-gray {
+    background-color: $lightest-gray;
   }
 
   .impression-wrapper {

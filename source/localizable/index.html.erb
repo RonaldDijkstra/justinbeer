@@ -10,12 +10,9 @@ blog: menu
                                          variant_overlay: "primary-overlay",
                                          background_image: "banner-homepage.jpg",
                                          title: t("pages.index.banner.title"),
-                                         text: t("pages.index.banner.text"),
-                                         button_link: "menu.html",
-                                         button_text: t("pages.index.banner.button_text"),
-                                         button_variant: "white ghost big" } %>
+                                         text: t("pages.index.banner.text") } %>
 
-<section class="introduction">
+<section class="introduction single-column  ">
   <div class="grid-row">
     <%= partial "homepage/content" %>
   </div>
@@ -23,5 +20,5 @@ blog: menu
 
 <%= partial "partials/opening-hours" %>
 <%= partial "partials/latest-untappd-menu-update" %>
-<%= partial "partials/impression", locals: { variant: "transparent" } %>
+<%= partial "partials/impression", locals: { variant: "variant-gray" } %>
 <%= partial "partials/maps" %>

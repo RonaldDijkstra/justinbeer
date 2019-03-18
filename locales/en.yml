@@ -8,9 +8,8 @@
       bedankt: "thanks"
       contact: "contact"
       over-ons: "about-us"
-      # menu: "beerlist"
     site:
-      description: "The craft beer store of Groningen with the largest and best assortment. We are open from Tuesday to Sunday."
+      description: "The craft beer store of Groningen with the largest and best collection of beer. We are open from Tuesday to Sunday."
     form:
       email: "Your email"
       message: "Message"

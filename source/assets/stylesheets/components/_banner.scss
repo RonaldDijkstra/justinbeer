@@ -48,6 +48,10 @@ header.banner {
         display: block;
       }
     }
+
+    p {
+      font-size: $base-font-size * 1.2;
+    }
   }
 
   &.variant-normal {
