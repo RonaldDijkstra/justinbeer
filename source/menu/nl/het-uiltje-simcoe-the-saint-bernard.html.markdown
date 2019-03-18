@@ -4,7 +4,7 @@ date: 2019-02-08T13:27:09.988222Z
 style: "IPA - Brut"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/2972509"
-rating: "3.67"
+rating: "3.68"
 description: ""
 untappd_url: "https://untappd.com/b/het-uiltje-simcoe-the-saint-bernard/2972509"
 abv: "7.0"
