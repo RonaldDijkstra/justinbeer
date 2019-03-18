@@ -45,6 +45,8 @@
       thanks:
         title: "Bedankt!"
     partials:
+      impression:
+        title: "Impressie van onze winkel"
       opening-hours:
         title: "Openingstijden"
         closed: "Gesloten"

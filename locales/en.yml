@@ -54,6 +54,8 @@
       thanks:
         title: "Thanks!"
     partials:
+      impression:
+        title: "Impression of the Store"
       opening-hours:
         title: "Opening Hours"
         closed: "Closed"

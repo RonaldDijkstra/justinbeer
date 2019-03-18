@@ -20,7 +20,8 @@ sitemap_priority: 1
   </div>
 </section>
 
-<%= partial "partials/impression" %>
-<%= partial "partials/latest-menu-update" %>
 <%= partial "partials/opening-hours" %>
+<%= partial "partials/impression", locals: { variant: "transparent" } %>
+
+<%= partial "partials/latest-menu-update" %>
 <%= partial "partials/maps" %>
