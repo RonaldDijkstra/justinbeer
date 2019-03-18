@@ -35,7 +35,7 @@ task :build do
   system "ruby lib/untappd_menu.rb" || exit(1)
   puts "== Retrieved external data".green
   puts "== Brewing...".green
-  system "bundle exec middleman build --verbose" || exit(1)
+  system "bundle exec middleman build" || exit(1)
   FileUtils.rm_rf("build/en/beers/", verbose: true)
   FileUtils.rm_rf("build/nl/", verbose: true)
 end
