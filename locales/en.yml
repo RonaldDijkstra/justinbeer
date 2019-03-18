@@ -56,6 +56,9 @@
     partials:
       impression:
         title: "Impression of the Store"
+      latest-untappd-menu-update:
+        title: "Latest menu addition"
+        button_text: "View our menu"
       opening-hours:
         title: "Opening Hours"
         closed: "Closed"

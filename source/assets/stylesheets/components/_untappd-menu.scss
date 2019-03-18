@@ -1,3 +1,9 @@
+section.untappd-menu {
+  .button-wrapper {
+    text-align: center;
+  }
+}
+
 .untappd-menu-item {
   @include grid-container;
   @include margin(null auto);
@@ -5,6 +11,10 @@
   display: flex;
   max-width: 800px;
   padding: 1em;
+
+  &:only-child {
+    border-bottom: 0;
+  }
 
   @include grid-media($for-desktop-up) {
     padding: 1em 0;
@@ -45,11 +55,11 @@
     p {
       @include ellipsis(100%);
       font-size: $base-font-size * 0.8;
+      text-align: left;
     }
 
     .item-brewery {
       font-size: $base-font-size * 0.8;
-      // padding-bottom: 1em;
 
       @include grid-media($for-desktop-up) {
         display: inline-block;

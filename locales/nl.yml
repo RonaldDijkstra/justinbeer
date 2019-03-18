@@ -47,6 +47,9 @@
     partials:
       impression:
         title: "Impressie van onze winkel"
+      latest-untappd-menu-update:
+        title: "Nieuwste bier"
+        button_text: "Bekijk ons menu"
       opening-hours:
         title: "Openingstijden"
         closed: "Gesloten"

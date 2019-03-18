@@ -1,8 +1,9 @@
 ---
 description:
-  nl: "Dit is een beschrijving"
-  en: "This is a description"
+  nl: "Dé speciaalbierwinkel van Groningen met het grootste en beste assortiment. Wij zijn geopend van dinsdag t/m zondag."
+  en: "The specialty beer shop in Groningen with the largest and best collection of beer. We are open from Tuesday to Sunday."
 sitemap_priority: 1
+blog: menu
 ---
 
 <%= partial "partials/banner", locals: { variant: "variant-big",
@@ -21,7 +22,6 @@ sitemap_priority: 1
 </section>
 
 <%= partial "partials/opening-hours" %>
+<%= partial "partials/latest-untappd-menu-update" %>
 <%= partial "partials/impression", locals: { variant: "transparent" } %>
-
-<%= partial "partials/latest-menu-update" %>
 <%= partial "partials/maps" %>
