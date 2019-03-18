@@ -43,6 +43,8 @@ end
 page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/*.xml", layout: false
+page "/menu/nl/*", layout: false
+page "/menu/en/*", layout: false
 
 # Settings for production
 configure :production do
