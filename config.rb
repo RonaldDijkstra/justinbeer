@@ -49,7 +49,7 @@ page "/menu/en/*", layout: false
 # Settings for production
 configure :production do
   activate :asset_hash
-  activate :gzip
+  # activate :gzip
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
