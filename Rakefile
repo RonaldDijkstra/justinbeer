@@ -7,25 +7,19 @@ def project_name
   "Just in Beer 2019 🍺"
 end
 
+## Get new data
+task :data do
+  puts "== Retrieving external data..."
+  system "ruby lib/untappd_menu.rb" || exit(1)
+  puts "== Retrieved external data".green
+  exit
+end
+
 ## Serve
-namespace :serve do
-  def serve
-    puts "== Start server..."
-    system "bundle exec middleman serve" || exit(1)
-  end
-
-  task :data do
-    puts "== Project: " + project_name.green
-    puts "== Retrieving external data..."
-    system "ruby lib/untappd_menu.rb" || exit(1)
-    puts "== Retrieved external data".green
-    serve
-  end
-
-  task :clean do
-    puts "== Project: " + project_name.green
-    serve
-  end
+task :serve do
+  puts "== Project: " + project_name.green
+  puts "== Start server..."
+  system "bundle exec middleman serve" || exit(1)
 end
 
 ## Build the website
