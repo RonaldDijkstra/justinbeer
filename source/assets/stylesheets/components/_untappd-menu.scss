@@ -17,7 +17,10 @@ section.untappd-menu {
   }
 
   &:only-child {
-    border-bottom: 0;
+    border: $base-border;
+    margin-bottom: 1em;
+    max-width: 640px;
+    padding: 1em;
   }
 
   .col {
