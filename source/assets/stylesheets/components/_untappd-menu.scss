@@ -12,12 +12,12 @@ section.untappd-menu {
   max-width: 800px;
   padding: 1em;
 
-  &:only-child {
-    border-bottom: 0;
-  }
-
   @include grid-media($for-desktop-up) {
     padding: 1em 0;
+  }
+
+  &:only-child {
+    border-bottom: 0;
   }
 
   .col {

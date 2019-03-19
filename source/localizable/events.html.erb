@@ -9,3 +9,20 @@ description:
                                          variant_overlay: "primary-overlay",
                                          background_image: "banner-events.jpg",
                                          title: t("pages.events.title")} %>
+
+<%
+all_events = data["events_" + I18n.locale.to_s]
+events = all_events.clone
+%>
+
+<section class="events single-column">
+  <div class="grid-row">
+    <ul>
+      <% events.each do |event| %>
+        <li>
+          <%= partial "partials/event-item", locals: { event: event } %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</section>

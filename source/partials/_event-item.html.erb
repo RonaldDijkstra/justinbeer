@@ -1,0 +1,43 @@
+<li>
+  <div class="date">
+    <div class="start-date">
+      <span><%= event.start_date %></span>
+      <span><%= event.start_time %></span>
+    </div>
+    <div class="end-date">
+      <span><%= event.end_date %></span>
+      <span><%= event.end_time %></span>
+    </div>
+  </div>
+  <h2>
+    <%= event.title %>
+  </h2>
+  <div class="location">
+    <span><%= event.location %></span>
+    <span><%= event.city %></span>
+  </div>
+  <div class="description">
+    <p>
+      <%= event.description %>
+    </p>
+  </div>
+  <% if event.website_url || event.facebook_url || event.ticket_url %>
+    <div class="event-links">
+      <% if event.website_url %>
+        <span>
+          <%= link_to "Website", event.website_url, target: "_blank" %>
+        </span>
+      <% end %>
+      <% if event.facebook_url %>
+        <span>
+          <%= link_to "Facebook", event.facebook_url, target: "_blank" %>
+        </span>
+      <% end %>
+      <% if event.ticket_url %>
+        <span>
+          <%= link_to "Tickets", event.ticket_url, target: "_blank" %>
+        </span>
+      <% end %>
+    </div>
+  <% end %>
+</li>
