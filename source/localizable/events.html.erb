@@ -19,9 +19,7 @@ events = all_events.clone
   <div class="grid-row">
     <ul>
       <% events.each do |event| %>
-        <li>
-          <%= partial "partials/event-item", locals: { event: event } %>
-        </li>
+        <%= partial "partials/event-item", locals: { event: event } %>
       <% end %>
     </ul>
   </div>

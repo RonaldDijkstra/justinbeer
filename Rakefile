@@ -38,7 +38,7 @@ end
 task :proof do
   puts "== Project: " + project_name.green
   puts "== Brewing in verbose mode...".green
-  system "bundle exec middleman build --verbose" || exit(1)
+  system "bundle exec middleman build" || exit(1)
   FileUtils.rm_rf("build/en/beers/", verbose: true)
   FileUtils.rm_rf("build/nl/", verbose: true)
   # Run html-proofer with options
