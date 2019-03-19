@@ -2,7 +2,7 @@
   command = "rake build"
   publish = "build/"
 [template.environment]
-  SEGMENT_KEY = "change me to your Segment API key"
+  SEGMENT_KEY = "nkahbMvomcDFju5uDtqW6s2uXKAbMtk0"
 
 [[redirects]]
   from = "/en/*"
