@@ -24,8 +24,19 @@ body.index {
       margin: 0 auto 2em;
       max-width: 640px;
     }
+
+    .announcement {
+      background: lighten($red, 40);
+      border: 1px solid $red;
+      color: $red;
+      margin-bottom: 2em;
+      padding: 1em;
+      text-align: center;
+    }
   }
 }
+
+
 
 .offer-wrapper {
   align-items: stretch;
