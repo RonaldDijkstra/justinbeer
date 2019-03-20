@@ -94,7 +94,7 @@ module ApplicationHelpers
 
   # Define image for Open Graph
   def og_image
-    full_url(asset_url(current_page.data.image || "assets/images/social.png"))
+    full_url(asset_url(current_page.data.image || "assets/images/og-image-default.jpg"))
   end
 
   # Get full locale (eg. nl_NL)
