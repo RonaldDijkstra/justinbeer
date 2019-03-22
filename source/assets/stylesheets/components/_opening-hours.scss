@@ -1,0 +1,31 @@
+section.opening-hours {
+  background: $lightest-gray;
+
+  .grid-row {
+    max-width: 400px;
+
+    ul.opening-hours-list {
+      li {
+        border-bottom: $base-border;
+        display: flex;
+        padding: 0 1em;
+
+        &.highlight {
+          color: $orange;
+          font-weight: $font-weight-bold;
+        }
+      }
+
+      span {
+        display: block;
+        flex: 1;
+        padding: 0.2em;
+
+        &.day {
+          flex: 1.5;
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+  }
+}

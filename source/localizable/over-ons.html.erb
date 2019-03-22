@@ -1,0 +1,22 @@
+---
+title:
+  nl: "Over ons"
+  en: "About us"
+description:
+  nl: "Over Just in Beer."
+  en: "About Just in Beer."
+sitemap_priority: 0.8
+---
+
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         background_image: "banner-over-ons.jpg",
+                                         title: t("pages.about-us.title")} %>
+
+<section class="single-column">
+  <div class="grid-row">
+    <article>
+      <%= partial "over-ons/content" %>
+    </article>
+  </div>
+</section>

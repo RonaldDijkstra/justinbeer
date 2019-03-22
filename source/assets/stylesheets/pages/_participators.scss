@@ -1,0 +1,6 @@
+body.deelnemers {
+  header.banner {
+    $banner-image: "../images/banner-fog.jpg";
+    background-image: url($banner-image);
+  }
+}

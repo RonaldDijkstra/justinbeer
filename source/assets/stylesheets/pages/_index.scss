@@ -1,0 +1,19 @@
+body.index {
+  header.banner {
+    $banner-image: "../images/banner-homepage.jpg";
+    background-image: url($banner-image);
+  }
+
+  section {
+    h2 {
+      font-size: $base-font-size * 1.6;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<form name="<%= locals[:name] %>-<%= lang %>" method="POST" data-netlify="true" action="<%= locale_pretty_url("/bedankt.html") %>">
+   <% if locals[:fields].include? "name" %>
+    <p>
+      <label for="name">
+        <%= t("form.name") %>
+      </label>
+      <input type="text" name="<%= t("form.name") %>" id="name" required>
+    </p>
+  <% end %>
+
+  <% if locals[:fields].include? "email" %>
+    <p>
+      <label for="email">
+        <%= t("form.email") %>
+      </label>
+      <input type="email" name="<%= t("form.email") %>" id="email" required>
+    </p>
+  <% end %>
+
+  <% if locals[:fields].include? "message" %>
+  <p>
+    <label for="message">
+      <%= t("form.message") %>
+    </label>
+    <textarea name="<%= t("form.message") %>" id="message" rows="6"></textarea>
+  </p>
+  <% end %>
+  <p>
+    <button type="submit" class="button <%= + locals[:button_variant] ||= "default" %>">
+      <% if locals[:button_text] %>
+        <%= locals[:button_text] %>
+      <% else %>
+        <%= t("form.submit") %>
+        <% end %>
+    </button>
+  </p>
+</form>

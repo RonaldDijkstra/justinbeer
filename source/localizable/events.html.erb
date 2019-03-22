@@ -1,0 +1,26 @@
+---
+title: "Events"
+description:
+  nl: "Bekijk hier alle evenementen van Just in Beer."
+  en: "View all events by Just in Beer."
+---
+
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         background_image: "banner-events.jpg",
+                                         title: t("pages.events.title")} %>
+
+<%
+all_events = data["events_" + I18n.locale.to_s]
+events = all_events.clone
+%>
+
+<section class="events single-column">
+  <div class="grid-row">
+    <ul>
+      <% events.each do |event| %>
+        <%= partial "partials/event-item", locals: { event: event } %>
+      <% end %>
+    </ul>
+  </div>
+</section>

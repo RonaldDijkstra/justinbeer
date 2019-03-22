@@ -1,0 +1,53 @@
+<nav class="site-navigation" role="navigation">
+  <div class="logo">
+    <% link_to("/", relative: false, class: "root-link home") do %>
+        <%= inline_svg "logo-just-in-beer.svg", alt: "Logo Just in Beer", class: "logo-desktop" %>
+        <span class="logo-mobile">
+          <%= data.site.name %>
+        </span>
+    <% end %>
+  </div>
+
+  <a id="mobile-toggle" class="mobile-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+
+  <div class="navigation-bar">
+    <ul class="menu">
+      <li>
+        <%= current_link_to t("navigation.index"), "/index.html", relative: false, class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.menu"), "/menu.html", class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.assortment"), "/assortiment.html", class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.events"), "/events.html", class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.about-us"), "/over-ons.html", class: "root-link" %>
+      </li>
+      <li>
+        <%= current_link_to t("navigation.contact"), "/contact.html", class: "root-link" %>
+      </li>
+      <li>
+        <% if lang == :nl %>
+          <a href="/en/" class="language-link">
+            <%= inline_svg "en.svg", alt: "English" %>
+            <span>English</span>
+          </a>
+        <% elsif lang == :en %>
+          <a href="/" class="language-link">
+            <%= inline_svg "nl.svg", alt: "Nederlands" %>
+            <span>Nederlands</span>
+          </a>
+        <% end %>
+      </li>
+    </ul>
+    <%= partial "partials/social-links" %>
+  </div>
+</nav>

@@ -1,15 +1,29 @@
 version: 2
+
 jobs:
   build:
     docker:
-      # specify the version you desire here
-       - image: circleci/ruby:2.3.3-node-browsers
+      - image: circleci/ruby:2.4.3-jessie-node
 
     steps:
       - checkout
+
+      - restore_cache:
+          key: middleman-project-{{ arch }}-{{ checksum "Gemfile.lock" }}
+
       - run:
-          name: Install dependencies
-          command: bundle install
+          name: Install Ruby dependencies
+          command: bundle install --path vendor/bundle
+
+      - save_cache:
+          key: middleman-project-{{ arch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
       - run:
-          name: Test
-          command: rake test
+          name: Setup the environment
+          command: cp .env.sample .env
+
+      - run:
+          name: Build & Proof Middleman site
+          command: rake proof

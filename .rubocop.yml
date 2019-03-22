@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - "**/*.erb"
+    - "lib/test_exception_localization_handler.rb"
+    - "lib/colorizer.rb"
+    - "lib/untappd_menu.rb"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+MethodCallWithoutArgsParentheses:
+  Enabled: false

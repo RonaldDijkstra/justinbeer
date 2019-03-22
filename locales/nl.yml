@@ -1,0 +1,63 @@
+---
+  nl:
+    CNAME: www.justinbeer.nl
+
+    site:
+      description: "Dé speciaalbierwinkel van Groningen met het grootste en beste assortiment. Wij zijn geopend van dinsdag t/m zondag."
+    actions:
+      tickets: "Tickets"
+    form:
+      email: "Je e-mailadres"
+      message: "Bericht"
+      name: "Je naam"
+      submit: "Verstuur"
+    navigation:
+      about-us: "Over ons"
+      assortment: "Assortiment"
+      contact: "Contact"
+      events: "Events"
+      index: "Home"
+      menu: "Menu"
+    # Pages
+    pages:
+      x404:
+        title: "404 - pagina niet gevonden"
+      about-us:
+        title: "Over ons"
+      assortment:
+        title: "Assortiment"
+      contact:
+        title: "Contact"
+      events:
+        title: "Events"
+      index:
+        banner:
+          title: "Welkom bij Just in Beer"
+          text: "De beste speciaalbierwinkel van Groningen"
+          button_text: "Menu"
+          button_link: "menu.html"
+      menu:
+        latest_update: "Laatste update"
+        more_info: "Meer info"
+        sub_title: "Onze bieren"
+        text: "Bekijk hier alle bij Just in Beer verkrijgbare bieren."
+        title: "Menu"
+      thanks:
+        title: "Bedankt!"
+    partials:
+      impression:
+        title: "Impressie van onze winkel"
+      latest-untappd-menu-update:
+        title: "Nieuwste bier"
+        button_text: "Bekijk ons menu"
+      opening-hours:
+        title: "Openingstijden"
+        closed: "Gesloten"
+        days:
+          monday: "Maandag"
+          tuesday: "Dinsdag"
+          wednesday: "Woensdag"
+          thursday: "Donderdag"
+          friday: "Vrijdag"
+          saturday: "Zaterdag"
+          sunday: "Zondag"

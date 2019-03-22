@@ -1,0 +1,54 @@
+// Typography
+$base-font-family: "Raleway", sans-serif;
+$heading-font-family: "Raleway", sans-serif;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Font weights
+$font-weight-small: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-font-size: 1em;
+$base-spacing: 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #aaa;
+$lighter-gray: #ddd;
+$lightest-gray: #eee;
+$orange: #e86240;
+
+$black: #000;
+$white: #fff;
+$slightly-desaturated-orange: #bd966b;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $orange;
+
+// Border
+$base-border-color: $lighter-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$viewport-background-color: #fff;
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;

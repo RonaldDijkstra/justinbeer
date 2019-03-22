@@ -1,0 +1,21 @@
+---
+title:
+  nl: "Assortiment"
+  en: "Assortment"
+description:
+  nl: "We verkopen bier van topbrouwerijen. Daarnaast verkopen we cadeaubonnen en -verpakkingen, glazen, literatuur, brouwpakketten en festivaltickets."
+  en: "We have beer from top breweries. We also have gift vouchers and gift boxes, beer glasses, beer literature, homebrewing packages and festival tickets."
+---
+
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         background_image: "banner-assortiment.jpg",
+                                         title: t("pages.assortment.title")} %>
+
+<section class="single-column">
+  <div class="grid-row">
+    <article>
+      <%= partial "assortiment/content" %>
+    </article>
+  </div>
+</section>

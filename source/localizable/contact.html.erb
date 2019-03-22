@@ -1,0 +1,25 @@
+---
+title:
+  nl: "Contact"
+  en: "Contact"
+description:
+  nl: "Neem contact op."
+  en: "Contact us now."
+sitemap_priority: 0.8
+---
+
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         background_image: "banner-contact.jpg",
+                                         title: t("pages.contact.title") } %>
+
+<section class="form">
+  <div class="grid-row form-grid-row">
+    <%= partial "partials/form", locals: { name: "contact",
+                                           fields: ["name", "email", "message"],
+                                           button_text: t("form.submit"),
+                                           button_variant: "orange"} %>
+  </div>
+</section>
+
+<%= partial "partials/maps" %>

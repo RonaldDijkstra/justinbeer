@@ -1,0 +1,40 @@
+---
+title: "Menu"
+description:
+  nl: "Check alle bij Just in Beer verkrijgbare bieren."
+  en: "View all beers available at Just in Beer."
+blog: menu
+pageable: true
+image: assets/images/og-image-menu.jpg
+---
+
+<%= partial "partials/banner", locals: { variant: "variant-normal",
+                                         variant_overlay: "primary-overlay",
+                                         background_image: "banner-menu.jpg",
+                                         title: t("pages.menu.title")} %>
+
+<section class="untappd-menu">
+  <div class="grid-row">
+
+    <div class="headline">
+      <h2>
+        <%= t("pages.menu.sub_title") %>
+      </h2>
+      <p>
+        <%= t("pages.menu.text") %>
+      </p>
+      <p>
+        <%= t("pages.menu.latest_update") %>: <em><%= blog("menu").articles.first.date.strftime("%d-%m-%Y") %></em>
+      </p>
+    </div>
+
+    <ul>
+      <% page_articles.each do |article| %>
+        <%= partial "partials/untappd-menu-item", locals: { article: article } %>
+      <% end %>
+    </ul>
+
+    <%= partial "partials/pagination", locals: current_page.metadata[:locals] %>
+
+  </div>
+</section>

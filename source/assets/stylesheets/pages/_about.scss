@@ -1,0 +1,6 @@
+body.over {
+  header.banner {
+    $banner-image: "../images/banner-barrels.jpg";
+    background-image: url($banner-image);
+  }
+}

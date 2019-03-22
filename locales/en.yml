@@ -1,0 +1,67 @@
+---
+  en:
+    CNAME: www.justinbeer.nl
+
+    # Path translations
+    paths:
+      assortiment: "assortment"
+      bedankt: "thanks"
+      contact: "contact"
+      over-ons: "about-us"
+    site:
+      description: "The Craft Beer Store in Groningen with the largest and best collection of beer. We are open from Tuesday to Sunday."
+    form:
+      email: "Your Email"
+      message: "Message"
+      name: "Your Name"
+      submit: "Submit"
+    navigation:
+      about-us: "About Us"
+      assortment: "Assortment"
+      contact: "Contact"
+      events: "Events"
+      index: "Home"
+      menu: "Menu"
+    # Pages
+    pages:
+      x404:
+        title: "404 - Page Not Found"
+      about-us:
+        title: "About Just in Beer"
+      assortment:
+        title: "Assortment"
+      contact:
+        title: "Contact"
+      events:
+        title: "Events"
+      index:
+        banner:
+          title: "Welcome to Just in Beer"
+          text: "The Best Craft Beer Store in Groningen"
+          button_text: "Menu"
+          button_link: "menu.html"
+      menu:
+        latest_update: "Latest Update"
+        more_info: "More info"
+        sub_title: "Our beers"
+        text: "View all beers available at Just in Beer."
+        title: "Menu"
+      thanks:
+        title: "Thanks!"
+    partials:
+      impression:
+        title: "Impression of the Store"
+      latest-untappd-menu-update:
+        title: "Latest Menu Addition"
+        button_text: "View Our Menu"
+      opening-hours:
+        title: "Opening Hours"
+        closed: "Closed"
+        days:
+          monday: "Monday"
+          tuesday: "Tuesday"
+          wednesday: "Wednesday"
+          thursday: "Thursday"
+          friday: "Friday"
+          saturday: "Saturday"
+          sunday: "Sunday"

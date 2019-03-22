@@ -1,20 +1,56 @@
-## Just in Beer
+# Just in Beer - Craft Beer Store in Groningen
 
-Repository for a craft beer store website: https://www.justinbeer.nl
+[![CircleCI branch](https://img.shields.io/circleci/project/github/RonaldDijkstra/justinbeer/master.svg)](https://circleci.com/gh/RonaldDijkstra/justinbeer)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=RonaldDijkstra/justinbeer)](https://dependabot.com)
 
-Built with [Middleman](https://github.com/middleman/middleman), hand-crafted frontend development.
+A website for a craft beer store dedicated to selling great beer. Just in Beer is located in Groningen, The Netherlands.
 
-### Dependencies
+## About this website
 
-- Ruby 2.3.3 (install with [rbenv](https://github.com/sstephenson/rbenv))
-- Bundler
+This website is built with [Middleman](https://middlemanapp.com/) with [Middleman Template by ThoughtBot](https://github.com/thoughtbot/middleman-template) and is multilanguage ready. This website is deployed with and to [Netlify](https://www.netlify.com/).  
 
-To install other dependencies run `bundle install` from the root of the project.
+## Before Setup
 
-### Serve
+-   Install [Homebrew](https://brew.sh/index_nl)
 
-Start server with `rake serve` and browse to [http://localhost:4567](http://localhost:4567).
+    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)`
 
-### Thanks to
+-   Install [rbenv](https://github.com/rbenv/rbenv) with [ruby-build](https://github.com/rbenv/ruby-build)
 
-- [Middleman](https://middlemanapp.com/)
+    `brew install rbenv ruby-build`
+
+-   Install Ruby 2.6.0
+
+    `rbenv install 2.6.0`
+
+## Setup & Serve
+
+After you have cloned this repo, follow these steps to run the website:
+
+-   Run the setup script to set up your machine with the necessary dependencies:
+
+    ```bash
+    bin/setup
+    ```
+
+-   Start the Middleman server.
+
+    ```bash
+    rake serve
+    ```
+
+    You should now be able to view the website at <http://localhost:4567>.
+
+## Build & Proof
+
+-   Build
+
+    ```bash
+    rake build
+    ```
+
+-   Proof
+
+    ```bash
+    rake proof
+    ```
