@@ -6,37 +6,37 @@ section.impression {
   &.variant-gray {
     background-color: $lightest-gray;
   }
+}
 
-  .impression-wrapper {
-    align-items: stretch;
-    display: flex;
-    flex-wrap: wrap;
-    margin: -($base-spacing / 5);
+div.impression-wrapper {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -($base-spacing / 5);
 
-    .impression-item {
-      padding: $base-spacing / 5;
-      width: 100%;
+  .impression-item {
+    padding: $base-spacing / 5;
+    width: 100%;
 
-      @include grid-media($for-desktop-up) {
-        &:nth-child(4n+1),
-        &:nth-child(4n+4) {
-          width: 60%;
-        }
+    @include grid-media($for-desktop-up) {
+      &:nth-child(4n+1),
+      &:nth-child(4n+4) {
+        width: 60%;
+      }
 
-        &:nth-child(4n+2),
-        &:nth-child(4n+3) {
-          width: 40%;
-        }
+      &:nth-child(4n+2),
+      &:nth-child(4n+3) {
+        width: 40%;
       }
     }
+  }
 
-    .impression-content {
-      background-position: center;
-      background-size: cover;
-      display: flex;
-      height: 360px;
-      position: relative;
-      width: 100%;
-    }
+  .impression-content {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 360px;
+    position: relative;
+    width: 100%;
   }
 }
