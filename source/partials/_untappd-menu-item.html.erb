@@ -18,9 +18,11 @@
           <%= article.data.ibu %> IBU
         </div>
       <% end %>
-      <div class="rating">
-        <%= article.data.rating %>
-      </div>
+      <% unless article.data.rating == "0.0" %>
+        <div class="rating">
+          <%= article.data.rating %>
+        </div>
+      <% end %>
     </div>
     <div>
       <% unless article.data.description == "" %>
