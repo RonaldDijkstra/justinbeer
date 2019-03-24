@@ -9,16 +9,17 @@ blog: menu
 <%= partial "partials/banner", locals: { variant: "variant-big",
                                          variant_overlay: "primary-overlay",
                                          background_image: "banner-homepage.jpg",
-                                         title: t("pages.index.banner.title"),
-                                         text: t("pages.index.banner.text") } %>
+                                         title: t("pages.index.banner.title")} %>
 
-<section class="introduction single-column  ">
+<section class="introduction single-column">
   <div class="grid-row">
-    <%= partial "homepage/content" %>
+    <article>
+      <%= partial "homepage/content" %>
+    </article>
+    <%= partial "partials/impression-list" %>
   </div>
 </section>
 
 <%= partial "partials/opening-hours" %>
 <%= partial "partials/latest-untappd-menu-update" %>
-<%= partial "partials/impression", locals: { variant: "variant-gray" } %>
 <%= partial "partials/maps" %>
