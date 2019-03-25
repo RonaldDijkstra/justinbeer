@@ -1,6 +1,7 @@
 body.index {
   header.banner {
     $banner-image: "../images/banner-homepage.jpg";
+
     background-image: url($banner-image);
   }
 
@@ -18,6 +19,7 @@ body.index {
   }
 
   article {
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
+    max-width: 800px;
   }
 }
