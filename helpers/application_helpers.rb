@@ -76,11 +76,6 @@ module ApplicationHelpers
     if blog_index?
       # Replace `blog_#_index` with `blog_index`
       classes.sub!(/blog_\d+_index/, "blog_index")
-    elsif is_blog_article?
-      classes += " blog-article"
-    elsif classes.include? "capp-entwickeln"
-      # Replace `capp-entwickeln` with `capp-lms`
-      classes.gsub!("capp-entwickeln", "capp-lms")
     end
 
     classes.prepend("#{I18n.locale} ")
