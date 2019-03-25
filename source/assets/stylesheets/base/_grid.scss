@@ -7,6 +7,10 @@ $for-desktop-up: (
   @include margin(null auto);
   max-width: 960px;
   padding: 2em $base-spacing;
+
+  &.wide {
+    max-width: 1200px;
+  }
 }
 
 .single-column .grid-row {
