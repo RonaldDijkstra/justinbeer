@@ -124,7 +124,7 @@ GEM
     public_suffix (3.0.3)
     rack (2.0.6)
     rails-assets-jquery (3.3.1)
-    rails-assets-what-input (5.2.0)
+    rails-assets-what-input (5.2.1)
     rainbow (3.0.0)
     rake (12.3.2)
     rb-fsevent (0.10.3)
