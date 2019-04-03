@@ -19,6 +19,15 @@
                                                  variant: button_variant } %>
       <% end %>
 
+
+      <% if locals[:discount] && lang == :nl %>
+        <div class="discount">
+           ⚠️ Donderdag 4 april t/m zondag 7 april ⚠️ <br><br>
+           <strong>6 halen, 5 betalen</strong><br><br>
+           Geldig op al het Nederlandse bier op vertoon van je toegangskaart voor Bierfestival Groningen!
+         </div>
+       <% end %>
+
     </div>
   <% end %>
 </header>

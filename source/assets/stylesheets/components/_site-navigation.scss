@@ -23,9 +23,9 @@
     .home {
       @include grid-media($for-desktop-up) {
         display: block;
-        height: 150px;
+        height: 160px;
         margin: 1em auto;
-        width: 240px;
+        width: 160px;
       }
     }
 
