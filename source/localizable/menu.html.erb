@@ -26,11 +26,12 @@ image: assets/images/og-image-menu.jpg
       <p>
         <%= t("pages.menu.latest_update") %>:
         <em>
-        <% if lang == :nl %>
-          <%= Date.today.strftime('%d-%m-%Y') %>
-        <% else %>
-          <%= Date.today %>
-        <% end %>
+          <% if lang == :nl %>
+            <%= Date.today.strftime('%d-%m-%Y') %>
+          <% else %>
+            <%= Date.today %>
+          <% end %>
+        </em>
       </p>
     </div>
 
