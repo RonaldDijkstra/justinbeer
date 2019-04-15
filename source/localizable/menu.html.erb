@@ -24,7 +24,13 @@ image: assets/images/og-image-menu.jpg
         <%= t("pages.menu.text") %>
       </p>
       <p>
-        <%= t("pages.menu.latest_update") %>: <em><%= blog("menu").articles.first.date.strftime("%d-%m-%Y") %></em>
+        <%= t("pages.menu.latest_update") %>:
+        <em>
+        <% if lang == :nl %>
+          <%= Date.today.strftime('%d-%m-%Y') %>
+        <% else %>
+          <%= Date.today %>
+        <% end %>
       </p>
     </div>
 
