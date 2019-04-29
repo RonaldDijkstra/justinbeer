@@ -4,7 +4,7 @@ date: 2019-03-19T12:46:51.898469Z
 style: "Witbier"
 brewery: "Brouwerij Breugem"
 image: "https://labels.untappd.com/labels/2126756"
-rating: "3.21"
+rating: "3.22"
 description: "Fris en zomers tarwerijstbier met vers geraspte Galanga wortel en Djeroek Poeroet. Strak van smaak, licht van alcohol en met een kenmerkend peper- en citruskarakter."
 untappd_url: "https://untappd.com/b/brouwerij-breugem-asian-white/2126756"
 abv: "4.6"

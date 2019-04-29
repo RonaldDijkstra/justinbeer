@@ -5,7 +5,7 @@ style: "Saison / Farmhouse Ale"
 brewery: "Oersoep"
 image: "https://labels.untappd.com/labels/2157291"
 rating: "3.67"
-description: "Forêt Blanc is a collaboration between Oersoep and JanotsBos, a winery in Meursault, Burgundy.  Experience an amazing interplay between the three months aging on Meursault barrels and the use of Hallertau blanc hops. This farmhouse ale is hazy, with a golden colour and mild carbonation. Flavour of peaches, vanilla and honey, a creamy mouthfeel followed with aromas of peaches and vanilla. "
+description: "Forêt Blanc is een samenwerking tussen Oersoep en janotsBos, een wijnmakerij is Meursault, Bordeaux.  Ervaar een geweldige wisselwerking tussen de drie maanden rijpen op Meursault vaten en het gebruik van Hallertau blanc hoppen.   Deze farmhouse ale is troebel, met een gouden kleur en mild koolzuur. Dit bier heeft een romig mondgevoel gevolgd door aroma’s van perziken, vanille en honing.   "
 untappd_url: "https://untappd.com/b/oersoep-foret-blanc/2157291"
 abv: "6.0"
 ibu: "0"

@@ -1,6 +1,6 @@
 ---
 title: "Satantonio"
-date: 2019-02-10T11:47:39.580283Z
+date: 2019-04-11T10:23:27.198545Z
 style: "Old Ale"
 brewery: "Oitava Colina"
 image: "https://labels.untappd.com/labels/1636222"

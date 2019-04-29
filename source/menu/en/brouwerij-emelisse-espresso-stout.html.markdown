@@ -1,7 +1,7 @@
 ---
 title: "Espresso Stout"
 date: 2019-02-08T13:27:56.108201Z
-style: "Stout - Foreign / Export"
+style: "Stout - Coffee"
 brewery: "Brouwerij Emelisse"
 image: "https://labels.untappd.com/labels/11726"
 rating: "3.78"

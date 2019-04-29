@@ -4,7 +4,7 @@ date: 2019-02-10T12:35:09.102113Z
 style: "Sour - Fruited"
 brewery: "Fierce Beer"
 image: "https://labels.untappd.com/labels/2849065"
-rating: "3.56"
+rating: "3.54"
 description: ""
 untappd_url: "https://untappd.com/b/fierce-beer-pineapple-cubed/2849065"
 abv: "8.0"
