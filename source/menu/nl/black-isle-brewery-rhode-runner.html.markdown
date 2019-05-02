@@ -1,7 +1,7 @@
 ---
 title: "Rhode Runner"
 date: 2019-02-10T12:42:35.514484Z
-style: "IPA - New England"
+style: "Pale Ale - New England"
 brewery: "Black Isle Brewery"
 image: "https://labels.untappd.com/labels/2636094"
 rating: "3.59"
