@@ -4,6 +4,8 @@
 
     site:
       description: "Dé speciaalbierwinkel van Groningen met het grootste en beste assortiment. Wij zijn geopend van dinsdag t/m zondag."
+      full_title: "Just in Beer | Speciaalbierwinkel in Groningen"
+      title: "Just in Beer"
     actions:
       tickets: "Tickets"
     form:
