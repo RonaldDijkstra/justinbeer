@@ -31,13 +31,13 @@ module ApplicationHelpers
     if frontmatter_title.is_a?(Hash) && frontmatter_title[I18n.locale]
       [frontmatter_title.send(I18n.locale), website_name].join(" - ")
     elsif frontmatter_title
-      [frontmatter_title, website_name].join(" - ")
+      [frontmatter_title, t("site.title")].join(" - ")
     end
   end
 
   # Page title is localized or title
   def page_title
-    local_title || website_name
+    local_title || t("site.full_title")
   end
 
   # Description is the value for description in frontmatter data

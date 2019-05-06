@@ -10,6 +10,8 @@
       over-ons: "about-us"
     site:
       description: "The Craft Beer Store in Groningen with the largest and best collection of beer. We are open from Tuesday to Sunday."
+      full_title: "Just in Beer - Craft Beer Store in Groningen"
+      title: "Just in Beer"
     form:
       email: "Your Email"
       message: "Message"
