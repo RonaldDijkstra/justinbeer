@@ -32,6 +32,7 @@ set :markdown,
   with_toc_data: true
 set :markdown_engine, :redcarpet
 
+# Just in Beer Untappd Menu (paginated)
 activate :blog do |blog|
   blog.name = "menu"
   blog.sources = "/menu/:lang/:title.html"
@@ -39,6 +40,22 @@ activate :blog do |blog|
   blog.paginate = true
   blog.page_link = "{num}"
   blog.per_page = 50
+end
+
+activate :blog do |blog|
+  blog.name = "blog"
+  blog.prefix = "blog"
+  blog.permalink = ":title"
+  case root_locale
+  when :nl
+    blog.sources = "/nl/{year}-{month}-{day}-{title}.html"
+  when :en
+    blog.sources = "/en/{year}-{month}-{day}-{title}.html"
+  end
+  # blog.tag_template = "blog/tag.html"
+  blog.paginate = true
+  blog.page_link = "{num}"
+  blog.per_page = 10
 end
 
 # Without layout
