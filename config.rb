@@ -30,7 +30,7 @@ set :markdown,
   strikethrough: true,
   tables: true,
   with_toc_data: true
-set :markdown_engine, :redcarpet
+set :markdown_engine, :kramdown
 
 activate :blog do |blog|
   blog.name = "menu"
