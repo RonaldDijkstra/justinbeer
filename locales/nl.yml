@@ -31,6 +31,7 @@
       contact:
         title: "Contact"
       events:
+        no-events: "Op dit moment zijn er geen geplande events."
         title: "Events"
       index:
         banner:

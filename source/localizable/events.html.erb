@@ -17,10 +17,16 @@ events = all_events.clone
 
 <section class="events single-column">
   <div class="grid-row">
-    <ul>
-      <% events.each do |event| %>
-        <%= partial "partials/event-item", locals: { event: event } %>
-      <% end %>
-    </ul>
+    <% if events.size > 0 %>
+      <ul>
+        <% events.each do |event| %>
+          <%= partial "partials/event-item", locals: { event: event } %>
+        <% end %>
+      </ul>
+    <% else %>
+      <p class="text-align--center">
+        <%= t("pages.events.no-events") %>
+      </p>
+    <% end %>
   </div>
 </section>
