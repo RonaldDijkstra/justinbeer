@@ -35,6 +35,7 @@
       contact:
         title: "Contact"
       events:
+        no-events: "There are no planned events at the moment."
         title: "Events"
       index:
         banner:
