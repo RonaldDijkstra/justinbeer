@@ -1,12 +1,22 @@
 <li>
   <div class="date">
     <div class="start-date">
-      <span><%= event.start_date %></span>
-      <span><%= event.start_time %></span>
+
+      <% if event.start_date && event.start_time %>
+        <span><%= event.start_date %></span>
+        <span><%= event.start_time %></span>
+      <% end %>
+
+      <% if event.start_date && !event.start_time %>
+        <%= event.start_date %>
+      <% end %>
+
     </div>
     <div class="end-date">
-      <span><%= event.end_date %></span>
-      <span><%= event.end_time %></span>
+      <% if event.end_date && event.end_time %>
+        <span><%= event.end_date %></span>
+        <span><%= event.end_time %></span>
+      <% end %>
     </div>
   </div>
   <h2>
