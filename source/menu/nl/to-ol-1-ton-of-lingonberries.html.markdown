@@ -4,7 +4,7 @@ date: 2019-02-10T12:06:47.091928Z
 style: "Sour - Ale"
 brewery: "To Øl"
 image: "https://labels.untappd.com/labels/2487293"
-rating: "3.94"
+rating: "3.93"
 description: ""
 untappd_url: "https://untappd.com/b/to-ol-1-ton-of-lingonberries/2487293"
 abv: "8.0"
