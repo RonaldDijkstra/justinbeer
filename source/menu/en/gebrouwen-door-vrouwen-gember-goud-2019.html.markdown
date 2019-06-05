@@ -4,7 +4,7 @@ date: 2019-03-05T12:09:34.225938Z
 style: "Spiced / Herbed Beer"
 brewery: "Gebrouwen Door Vrouwen"
 image: "https://labels.untappd.com/labels/3060515"
-rating: "3.69"
+rating: "3.45"
 description: ""
 untappd_url: "https://untappd.com/b/gebrouwen-door-vrouwen-gember-goud-2019/3060515"
 abv: "4.6"
