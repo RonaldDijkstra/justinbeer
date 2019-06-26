@@ -1,7 +1,7 @@
 ---
 title: "Piña Colada Scream"
 date: 2019-02-10T12:34:25.562004Z
-style: "Pale Ale - American"
+style: "Pale Ale - Milkshake"
 brewery: "Fierce Beer"
 image: "https://labels.untappd.com/labels/2708726"
 rating: "3.73"

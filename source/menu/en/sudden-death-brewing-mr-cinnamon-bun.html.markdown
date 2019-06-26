@@ -1,7 +1,7 @@
 ---
 title: "Mr. Cinnamon Bun"
 date: 2019-02-08T13:52:09.816416Z
-style: "Stout - Imperial Oatmeal"
+style: "Pastry Stout"
 brewery: "Sudden Death Brewing "
 image: "https://labels.untappd.com/labels/2883364"
 rating: "3.9"

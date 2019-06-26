@@ -1,7 +1,7 @@
 ---
 title: "Lentebock / Meibock"
 date: 2019-03-07T13:04:45.870911Z
-style: "Bock - Maibock / Heller (Helles) / Lentebock"
+style: "Bock - Hell / Maibock / Lentebock"
 brewery: "Brouwerij Groninger"
 image: "https://labels.untappd.com/labels/2015461"
 rating: "3.41"

@@ -1,7 +1,7 @@
 ---
 title: "Stone Xocoveza"
 date: 2019-02-10T12:19:40.698736Z
-style: "Stout - Imperial Milk / Sweet"
+style: "Stout - Imperial / Double Milk"
 brewery: "Stone Brewing"
 image: "https://labels.untappd.com/labels/1311232"
 rating: "4.09"

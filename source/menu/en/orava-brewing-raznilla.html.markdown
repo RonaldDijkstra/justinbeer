@@ -1,7 +1,7 @@
 ---
 title: "Raznilla"
 date: 2019-02-20T16:06:55.332394Z
-style: "Sour - Ale"
+style: "Sour - Fruited"
 brewery: "Orava Brewing"
 image: "https://labels.untappd.com/labels/2732886"
 rating: "3.82"

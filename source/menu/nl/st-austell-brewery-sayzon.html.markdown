@@ -1,7 +1,7 @@
 ---
 title: "Sayzon"
 date: 2019-02-10T12:08:08.095399Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "St Austell Brewery"
 image: "https://labels.untappd.com/labels/1994451"
 rating: "3.39"

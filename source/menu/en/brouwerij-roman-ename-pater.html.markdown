@@ -1,7 +1,7 @@
 ---
 title: "Ename Pater"
 date: 2019-02-10T11:32:00.033033Z
-style: "Blonde Ale - Belgian Blonde / Golden"
+style: "Belgian Blonde"
 brewery: "Brouwerij Roman"
 image: "https://labels.untappd.com/labels/1027123"
 rating: "3.43"

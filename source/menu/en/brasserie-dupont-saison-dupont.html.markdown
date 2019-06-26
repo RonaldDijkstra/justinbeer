@@ -1,7 +1,7 @@
 ---
 title: "Saison Dupont"
 date: 2019-02-10T11:32:36.132119Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "Brasserie Dupont"
 image: "https://labels.untappd.com/labels/8073"
 rating: "3.74"

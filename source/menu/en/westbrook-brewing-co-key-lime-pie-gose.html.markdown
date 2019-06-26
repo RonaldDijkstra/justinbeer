@@ -1,7 +1,7 @@
 ---
 title: "Key Lime Pie Gose"
 date: 2019-02-08T13:48:10.606110Z
-style: "Sour - Gose"
+style: "Sour - Gose - Fruited"
 brewery: "Westbrook Brewing Co."
 image: "https://labels.untappd.com/labels/1528258"
 rating: "4.08"

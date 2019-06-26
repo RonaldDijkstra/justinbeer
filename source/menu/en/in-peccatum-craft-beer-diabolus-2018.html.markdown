@@ -1,7 +1,7 @@
 ---
 title: "Diabolus (2018)"
 date: 2019-02-10T12:07:35.652642Z
-style: "Belgian Quad"
+style: "Belgian Quadrupel"
 brewery: "In Peccatum Craft Beer"
 image: "https://labels.untappd.com/labels/2872378"
 rating: "3.91"

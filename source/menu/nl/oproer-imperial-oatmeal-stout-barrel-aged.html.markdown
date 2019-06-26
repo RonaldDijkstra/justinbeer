@@ -1,7 +1,7 @@
 ---
 title: "Imperial Oatmeal Stout Barrel Aged"
 date: 2019-02-08T14:18:37.501301Z
-style: "Stout - Imperial Oatmeal"
+style: "Stout - Imperial / Double Oatmeal"
 brewery: "Oproer"
 image: "https://labels.untappd.com/labels/2356453"
 rating: "3.88"

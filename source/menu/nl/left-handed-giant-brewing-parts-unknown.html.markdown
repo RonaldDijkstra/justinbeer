@@ -1,7 +1,7 @@
 ---
 title: "Parts Unknown"
 date: 2019-02-08T13:47:11.307497Z
-style: "Sour - Gose"
+style: "Sour - Gose - Fruited"
 brewery: "Left Handed Giant Brewing"
 image: "https://labels.untappd.com/labels/2984694"
 rating: "3.57"

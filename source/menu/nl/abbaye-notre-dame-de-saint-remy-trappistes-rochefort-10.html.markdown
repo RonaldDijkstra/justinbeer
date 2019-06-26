@@ -1,7 +1,7 @@
 ---
 title: "Trappistes Rochefort 10"
 date: 2019-02-08T14:20:19.496244Z
-style: "Belgian Quad"
+style: "Belgian Quadrupel"
 brewery: "Abbaye Notre-Dame de Saint-Rémy"
 image: "https://labels.untappd.com/labels/6766"
 rating: "4.13"

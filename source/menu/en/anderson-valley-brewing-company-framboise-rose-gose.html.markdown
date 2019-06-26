@@ -1,7 +1,7 @@
 ---
 title: "Framboise Rose Gose"
 date: 2019-02-10T12:22:51.180708Z
-style: "Sour - Gose"
+style: "Sour - Gose - Fruited"
 brewery: "Anderson Valley Brewing Company"
 image: "https://labels.untappd.com/labels/2265738"
 rating: "3.78"

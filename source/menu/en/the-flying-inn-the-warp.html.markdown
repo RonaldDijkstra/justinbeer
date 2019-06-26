@@ -1,7 +1,7 @@
 ---
 title: "THE WARP"
 date: 2019-02-10T11:41:14.895807Z
-style: "Stout - Imperial Oatmeal"
+style: "Stout - Imperial / Double Oatmeal"
 brewery: "The Flying Inn"
 image: "https://labels.untappd.com/labels/2920547"
 rating: "3.96"

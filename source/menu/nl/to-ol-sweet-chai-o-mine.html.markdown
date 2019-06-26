@@ -1,7 +1,7 @@
 ---
 title: "Sweet Chai O'Mine"
 date: 2019-02-10T11:41:43.346196Z
-style: "Stout - Imperial Milk / Sweet"
+style: "Stout - Imperial / Double Milk"
 brewery: "To Øl"
 image: "https://labels.untappd.com/labels/2329855"
 rating: "3.77"

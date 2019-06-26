@@ -1,7 +1,7 @@
 ---
 title: "1 Ton Of... Lingonberries"
 date: 2019-02-10T12:06:47.091928Z
-style: "Sour - Ale"
+style: "Sour - Fruited"
 brewery: "To Øl"
 image: "https://labels.untappd.com/labels/2487293"
 rating: "3.93"

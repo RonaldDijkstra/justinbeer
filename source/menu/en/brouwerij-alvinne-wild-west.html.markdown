@@ -1,7 +1,7 @@
 ---
 title: "Wild West"
 date: 2019-02-08T14:40:13.345996Z
-style: "Sour - Ale"
+style: "Sour - Other"
 brewery: "Brouwerij Alvinne"
 image: "https://labels.untappd.com/labels/138501"
 rating: "3.94"

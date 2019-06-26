@@ -1,7 +1,7 @@
 ---
 title: "What If Hop Was One of Us?"
 date: 2019-02-08T13:41:25.353525Z
-style: "Sour - Ale"
+style: "Sour - Other"
 brewery: "Jopen"
 image: "https://labels.untappd.com/labels/2686968"
 rating: "3.4"

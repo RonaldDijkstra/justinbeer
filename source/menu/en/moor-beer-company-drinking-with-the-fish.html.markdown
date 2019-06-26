@@ -1,7 +1,7 @@
 ---
 title: "Drinking With the Fish"
 date: 2019-02-10T11:52:27.832954Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "Moor Beer Company"
 image: "https://labels.untappd.com/labels/2559297"
 rating: "3.61"

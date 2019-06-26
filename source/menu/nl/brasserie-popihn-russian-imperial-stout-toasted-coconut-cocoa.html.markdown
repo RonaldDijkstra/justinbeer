@@ -8,6 +8,6 @@ rating: "3.97"
 description: "OG : 1132 FG : 1044.2 13 Malts US-05 100 kilos de chips de coco toastées par nos amis suisses 90 kilos de chocolat"
 untappd_url: "https://untappd.com/b/brasserie-popihn-russian-imperial-stout-toasted-coconut-cocoa/2609197"
 abv: "11.52"
-ibu: "0"
+ibu: "50"
 robots: noindex,nofollow
 ---

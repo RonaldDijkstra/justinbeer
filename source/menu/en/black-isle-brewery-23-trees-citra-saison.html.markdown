@@ -1,7 +1,7 @@
 ---
 title: "23 Trees Citra Saison"
 date: 2019-02-10T12:01:17.717461Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "Black Isle Brewery"
 image: "https://labels.untappd.com/labels/1993181"
 rating: "3.64"

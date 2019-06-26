@@ -1,7 +1,7 @@
 ---
 title: "Cucumber Gose"
 date: 2019-02-10T12:35:35.632973Z
-style: "Sour - Gose"
+style: "Sour - Gose - Fruited"
 brewery: "Stewart Brewing"
 image: "https://labels.untappd.com/labels/2855177"
 rating: "3.64"

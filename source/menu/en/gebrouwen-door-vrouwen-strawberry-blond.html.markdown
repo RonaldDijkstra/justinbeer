@@ -1,10 +1,10 @@
 ---
 title: "Strawberry Blond"
 date: 2019-04-30T12:05:43.068085Z
-style: "Blonde Ale - Belgian Blonde / Golden"
+style: "Belgian Blonde"
 brewery: "Gebrouwen Door Vrouwen"
 image: "https://labels.untappd.com/labels/2816297"
-rating: "3.28"
+rating: "3.29"
 description: "Strawberry Blond is een blond bier met een vleugje aardbei. Dit bier heeft de geur van een relaxte chilldag en een bitterzoete afdronk. Een bier om van te houden."
 untappd_url: "https://untappd.com/b/gebrouwen-door-vrouwen-strawberry-blond/2816297"
 abv: "6.2"

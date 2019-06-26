@@ -1,7 +1,7 @@
 ---
 title: "Royaal"
 date: 2019-02-08T13:53:07.016113Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "Rock City Brewing"
 image: "https://labels.untappd.com/labels/2236453"
 rating: "3.3"

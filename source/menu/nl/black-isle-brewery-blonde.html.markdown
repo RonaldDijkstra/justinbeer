@@ -1,7 +1,7 @@
 ---
 title: "Blonde"
 date: 2019-02-10T12:01:49.670253Z
-style: "Lager - Euro"
+style: "Lager - Euro Pale"
 brewery: "Black Isle Brewery"
 image: "https://labels.untappd.com/labels/14488"
 rating: "3.45"

@@ -1,7 +1,7 @@
 ---
 title: "Abt 12"
 date: 2019-02-08T14:40:43.603180Z
-style: "Belgian Quad"
+style: "Belgian Quadrupel"
 brewery: "Brouwerij St. Bernardus"
 image: "https://labels.untappd.com/labels/6760"
 rating: "4.06"

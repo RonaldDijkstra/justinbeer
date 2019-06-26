@@ -1,7 +1,7 @@
 ---
 title: "Beyond"
 date: 2019-02-10T11:50:26.114023Z
-style: "Blonde Ale - Belgian Blonde / Golden"
+style: "Belgian Blonde"
 brewery: "La Calavera"
 image: "https://labels.untappd.com/labels/2558539"
 rating: "3.59"

@@ -1,7 +1,7 @@
 ---
 title: "Luciferin"
 date: 2019-02-08T13:51:55.630669Z
-style: "Sour - Gose"
+style: "Sour - Gose - Fruited"
 brewery: "Vibrant Forest Brewery"
 image: "https://labels.untappd.com/labels/2906141"
 rating: "3.75"

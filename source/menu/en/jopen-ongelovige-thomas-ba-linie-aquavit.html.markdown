@@ -1,7 +1,7 @@
 ---
 title: "Ongelovige Thomas BA Linie Aquavit"
 date: 2019-03-08T15:02:05.856480Z
-style: "Belgian Quad"
+style: "Belgian Quadrupel"
 brewery: "Jopen"
 image: "https://labels.untappd.com/labels/2358001"
 rating: "4.04"

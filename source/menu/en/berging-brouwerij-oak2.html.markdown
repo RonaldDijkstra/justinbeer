@@ -1,7 +1,7 @@
 ---
 title: "OAK2"
 date: 2019-02-08T14:22:51.068813Z
-style: "Belgian Quad"
+style: "Belgian Quadrupel"
 brewery: "Berging Brouwerij"
 image: "https://labels.untappd.com/labels/2504571"
 rating: "3.73"

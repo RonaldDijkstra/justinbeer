@@ -1,7 +1,7 @@
 ---
 title: "Quadrupel"
 date: 2019-02-08T14:07:42.971291Z
-style: "Belgian Quad"
+style: "Belgian Quadrupel"
 brewery: "Brouwerij Martinus"
 image: "https://labels.untappd.com/labels/2034005"
 rating: "3.58"

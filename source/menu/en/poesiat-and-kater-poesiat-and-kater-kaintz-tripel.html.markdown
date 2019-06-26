@@ -4,7 +4,7 @@ date: 2019-05-15T15:01:09.425146Z
 style: "Belgian Tripel"
 brewery: "Poesiat & Kater"
 image: "https://labels.untappd.com/labels/1983909"
-rating: "3.47"
+rating: "3.48"
 description: "A modern twist on a classic style. The English ale yeast pumps up the fruitiness. Sorachi Ace hops bring a touch of lemon. It's eeeasy drinking and exxxtra dangerous!  Sebastiaan [Kaintz] – Genius brewmaster and creator of the iconic beers from the old v.Vollenhoven&co brewery. Stubborn, fierce, and a drunk. Naturally, he was fired."
 untappd_url: "https://untappd.com/b/poesiat-and-kater-poesiat-and-kater-kaintz-tripel/1983909"
 abv: "8.0"

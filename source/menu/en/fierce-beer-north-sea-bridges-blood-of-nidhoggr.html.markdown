@@ -1,7 +1,7 @@
 ---
 title: "North Sea Bridges: Blood of Nidhoggr"
 date: 2019-02-10T11:53:54.141109Z
-style: "Sour - Ale"
+style: "Sour - Fruited"
 brewery: "Fierce Beer"
 image: "https://labels.untappd.com/labels/2797891"
 rating: "3.84"

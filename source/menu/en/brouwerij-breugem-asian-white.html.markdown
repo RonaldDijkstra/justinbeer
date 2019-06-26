@@ -8,6 +8,6 @@ rating: "3.22"
 description: "Fris en zomers tarwerijstbier met vers geraspte Galanga wortel en Djeroek Poeroet. Strak van smaak, licht van alcohol en met een kenmerkend peper- en citruskarakter."
 untappd_url: "https://untappd.com/b/brouwerij-breugem-asian-white/2126756"
 abv: "4.6"
-ibu: "0"
+ibu: "16"
 robots: noindex,nofollow
 ---

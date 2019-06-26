@@ -1,7 +1,7 @@
 ---
 title: "Zuur Rhubarb"
 date: 2019-02-10T12:09:34.542832Z
-style: "Sour - Ale"
+style: "Sour - Other"
 brewery: "Vibrant Forest Brewery"
 image: "https://labels.untappd.com/labels/1697656"
 rating: "3.51"

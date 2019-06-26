@@ -1,7 +1,7 @@
 ---
 title: "Blond"
 date: 2019-02-08T14:07:29.247598Z
-style: "Blonde Ale - Belgian Blonde / Golden"
+style: "Belgian Blonde"
 brewery: "Brouwerij Martinus"
 image: "https://labels.untappd.com/labels/1234201"
 rating: "3.49"

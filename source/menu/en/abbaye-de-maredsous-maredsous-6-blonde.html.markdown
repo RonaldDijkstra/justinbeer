@@ -1,7 +1,7 @@
 ---
 title: "Maredsous 6° Blonde"
 date: 2019-02-08T14:40:34.507635Z
-style: "Blonde Ale - Belgian Blonde / Golden"
+style: "Belgian Blonde"
 brewery: "Abbaye de Maredsous"
 image: "https://labels.untappd.com/labels/7767"
 rating: "3.54"

@@ -1,7 +1,7 @@
 ---
 title: "Ex-Girlfriend BA Ruby Port & Jamaicaanse Rum"
 date: 2019-03-05T12:32:59.587902Z
-style: "Bock - Eisbock"
+style: "Bock - Eisbock (Traditional)"
 brewery: "Jopen"
 image: "https://labels.untappd.com/labels/3057501"
 rating: "4.07"

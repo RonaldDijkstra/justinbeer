@@ -1,7 +1,7 @@
 ---
 title: "Mannenliefde"
 date: 2019-02-08T13:30:36.384576Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "Oedipus Brewing"
 image: "https://labels.untappd.com/labels/223444"
 rating: "3.47"

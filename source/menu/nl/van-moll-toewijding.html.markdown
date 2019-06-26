@@ -1,7 +1,7 @@
 ---
 title: "Toewijding"
 date: 2019-03-15T11:51:03.796600Z
-style: "Blonde Ale - Belgian Blonde / Golden"
+style: "Belgian Blonde"
 brewery: "Van Moll"
 image: "https://labels.untappd.com/labels/2039921"
 rating: "3.48"

@@ -1,7 +1,7 @@
 ---
 title: "Salty Kiss"
 date: 2019-02-10T12:38:47.933283Z
-style: "Sour - Gose"
+style: "Sour - Gose - Fruited"
 brewery: "Magic Rock Brewing"
 image: "https://labels.untappd.com/labels/322150"
 rating: "3.46"

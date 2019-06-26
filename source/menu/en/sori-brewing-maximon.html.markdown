@@ -1,7 +1,7 @@
 ---
 title: "Maximón"
 date: 2019-04-11T10:23:27.198545Z
-style: "Porter - Baltic"
+style: "Porter - Baltic Imperial / Double"
 brewery: "Sori Brewing"
 image: "https://labels.untappd.com/labels/2354703"
 rating: "3.97"

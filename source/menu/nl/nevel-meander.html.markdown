@@ -1,7 +1,7 @@
 ---
 title: "Meander"
 date: 2019-02-10T12:12:35.312398Z
-style: "Sour - Ale"
+style: "Sour - Other"
 brewery: "Nevel"
 image: "https://labels.untappd.com/labels/2857692"
 rating: "3.81"

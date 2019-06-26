@@ -1,7 +1,7 @@
 ---
 title: "Billiard - BA Springbank"
 date: 2019-02-08T14:26:46.524376Z
-style: "Stout - Imperial Oatmeal"
+style: "Stout - Imperial / Double Oatmeal"
 brewery: "Brouwerij Frontaal"
 image: "https://labels.untappd.com/labels/2407199"
 rating: "3.91"

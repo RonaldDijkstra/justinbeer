@@ -1,7 +1,7 @@
 ---
 title: "Dead Pony Club"
 date: 2019-02-10T11:50:49.803928Z
-style: "Pale Ale - American"
+style: "IPA - Session / India Session Ale"
 brewery: "BrewDog"
 image: "https://labels.untappd.com/labels/164769"
 rating: "3.57"

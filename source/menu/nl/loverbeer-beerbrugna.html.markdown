@@ -1,7 +1,7 @@
 ---
 title: "BeerBrugna"
 date: 2019-02-10T12:12:13.774702Z
-style: "Sour - Ale"
+style: "Sour - Other"
 brewery: "LoverBeer"
 image: "https://labels.untappd.com/labels/29097"
 rating: "4.01"

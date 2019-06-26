@@ -1,7 +1,7 @@
 ---
 title: "Surf Ale"
 date: 2019-02-10T11:35:23.587995Z
-style: "Pale Wheat Ale - American"
+style: "Wheat Beer - American Pale Wheat"
 brewery: "DAVO"
 image: "https://labels.untappd.com/labels/382646"
 rating: "3.48"

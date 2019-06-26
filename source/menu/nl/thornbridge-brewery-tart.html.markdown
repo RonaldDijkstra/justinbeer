@@ -1,7 +1,7 @@
 ---
 title: "Tart"
 date: 2019-02-10T11:50:07.061892Z
-style: "Sour - Ale"
+style: "Sour - Other"
 brewery: "Thornbridge Brewery"
 image: "https://labels.untappd.com/labels/1082786"
 rating: "3.44"

@@ -1,7 +1,7 @@
 ---
 title: "Öö"
 date: 2019-03-14T10:22:41.986261Z
-style: "Porter - Baltic"
+style: "Porter - Baltic Imperial / Double"
 brewery: "Põhjala"
 image: "https://labels.untappd.com/labels/309362"
 rating: "3.98"

@@ -1,7 +1,7 @@
 ---
 title: "Dreamcatcher"
 date: 2019-03-20T13:56:38.003131Z
-style: "Stout - Imperial Milk / Sweet"
+style: "Stout - Imperial / Double Milk"
 brewery: "Turning Point Brew Co."
 image: "https://labels.untappd.com/labels/3056913"
 rating: "4.14"

@@ -1,7 +1,7 @@
 ---
 title: "So Damn Joe"
 date: 2019-05-15T14:45:34.486594Z
-style: "Stout - Imperial Oatmeal"
+style: "Stout - Imperial / Double Oatmeal"
 brewery: "Jakobsland Brewers"
 image: "https://labels.untappd.com/labels/2518145"
 rating: "3.99"

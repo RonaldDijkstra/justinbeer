@@ -1,7 +1,7 @@
 ---
 title: "Saison"
 date: 2019-02-08T14:07:23.062791Z
-style: "Saison / Farmhouse Ale"
+style: "Farmhouse Ale - Saison"
 brewery: "Brouwerij Martinus"
 image: "https://labels.untappd.com/labels/1491207"
 rating: "3.39"

@@ -1,7 +1,7 @@
 ---
 title: "Schwarzwalder Kirsch"
 date: 2019-02-08T12:48:29.467499Z
-style: "Stout - Imperial Oatmeal"
+style: "Stout - Imperial / Double Oatmeal"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/1794299"
 rating: "3.63"
