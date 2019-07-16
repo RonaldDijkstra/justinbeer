@@ -14,7 +14,7 @@ Naast de verkoop van fantastisch bier proberen we een wezenlijke bijdrage te lev
 
 Al eerder organiseerden we een optreden van Meadowlake in de winkel, met een bijpassende proeverij van een van Groningens jonge brouwerijen: Brouwerij Eggens.
 
-Tenslotte brouwen we zelf ook bier met enkele vrienden (Folkingebrew), die van tijd tot tijd in de winkel verkrijgbaar zijn.
+Tenslotte brouwen we zelf ook bier met enkele vrienden ([Folkingebrew](https://www.folkingebrew.nl)), die van tijd tot tijd in de winkel verkrijgbaar zijn.
 
 ### Contact
 Heb je een vraag, suggesties voor ons assortiment of de winkel of heb je een gouden biertip? Neem dan contact op via [ons contactformulier](/contact/).
