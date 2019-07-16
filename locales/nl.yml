@@ -29,6 +29,8 @@
       assortment:
         title: "Assortiment"
       contact:
+        details: "Contactgegevens"
+        form: "Contactformulier"
         title: "Contact"
       events:
         no-events: "Op dit moment zijn er geen geplande events."

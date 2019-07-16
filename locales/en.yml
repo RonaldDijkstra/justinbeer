@@ -33,6 +33,8 @@
       assortment:
         title: "Assortment"
       contact:
+        details: "Contact Details"
+        form: "Contact Form"
         title: "Contact"
       events:
         no-events: "There are no planned events at the moment."

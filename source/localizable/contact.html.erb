@@ -15,10 +15,26 @@ sitemap_priority: 0.8
 
 <section class="form">
   <div class="grid-row form-grid-row">
-    <%= partial "partials/form", locals: { name: "contact",
-                                           fields: ["name", "email", "message"],
-                                           button_text: t("form.submit"),
-                                           button_variant: "orange"} %>
+    <div class="col">
+      <h2>
+        <%= t("pages.contact.form") %>
+      </h2>
+      <%= partial "partials/form", locals: { name: "contact",
+                                             fields: ["name", "email", "message"],
+                                             button_text: t("form.submit"),
+                                             button_variant: "orange"} %>
+    </div>
+    <div class="col">
+      <h2>
+        <%= t("pages.contact.details") %>
+      </h2>
+      <p>
+        Folkingestraat 18<br>
+        9711 JW<br>
+        Groningen<br>
+        <a href="mailto:just_in_beer@hotmail.com">just_in_beer@hotmail.com</a><br>
+        06 - 43469823
+    </div>
   </div>
 </section>
 
