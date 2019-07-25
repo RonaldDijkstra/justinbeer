@@ -14,7 +14,5 @@ Besides providing great beer, we try to make a substantial contribution to the b
 
 And earlier, we organized a concert of Meadowlake in the store, with a tasting of one of Groningen's young breweries: Brouwerij Eggens.
 
-Last but not least, we brew our own beer with a few friends at [Folkingebrew](https://www.folkingebrew.nl), which are available in the store from time to time. 
-
 ### Contact
 Do you have a question, suggestion for our assortment or the store or do you have a golden beer tip? Please contact us via [our contact form](/en/contact/).
