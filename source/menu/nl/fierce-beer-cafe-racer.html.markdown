@@ -8,6 +8,6 @@ rating: "3.85"
 description: "Coffee vanilla porter"
 untappd_url: "https://untappd.com/b/fierce-beer-cafe-racer/1167985"
 abv: "6.5"
-ibu: "20"
+ibu: "25"
 robots: noindex,nofollow
 ---

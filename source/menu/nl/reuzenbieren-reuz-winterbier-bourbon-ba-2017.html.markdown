@@ -4,7 +4,7 @@ date: 2019-02-10T11:31:45.188233Z
 style: "Winter Ale"
 brewery: "Reuzenbieren"
 image: "https://labels.untappd.com/labels/2345534"
-rating: "3.84"
+rating: "3.83"
 description: "Speciaal gelagerd op Amerikaanse Woodford Bourbon vaten"
 untappd_url: "https://untappd.com/b/reuzenbieren-reuz-winterbier-bourbon-ba-2017/2345534"
 abv: "10.0"

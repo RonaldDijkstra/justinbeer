@@ -1,7 +1,7 @@
 ---
 title: "Zijgelooftinmijbok"
 date: 2019-02-08T14:00:32.277714Z
-style: "Bock - Maibock / Heller (Helles) / Lentebock"
+style: "Bock - Hell / Maibock / Lentebock"
 brewery: "Brouwerij De Prael"
 image: "https://labels.untappd.com/labels/2543184"
 rating: "3.35"

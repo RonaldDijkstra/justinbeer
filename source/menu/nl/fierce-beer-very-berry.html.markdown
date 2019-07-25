@@ -8,6 +8,6 @@ rating: "3.7"
 description: "This tart ale is packed with a supergroup of seasonal berries, with sweet notes of raspberry, blackberry and blackcurrant that balance off a puckering sour punch. This is a beer with the ROAR levels turned up to 11, so lets get jammin!"
 untappd_url: "https://untappd.com/b/fierce-beer-very-berry/2195346"
 abv: "4.5"
-ibu: "0"
+ibu: "10"
 robots: noindex,nofollow
 ---

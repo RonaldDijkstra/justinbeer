@@ -4,7 +4,7 @@ date: 2019-05-15T14:44:28.540793Z
 style: "IPA - Milkshake"
 brewery: "Big Belly Brewing"
 image: "https://labels.untappd.com/labels/3160901"
-rating: "3.72"
+rating: "3.7"
 description: ""
 untappd_url: "https://untappd.com/b/big-belly-brewing-liquid-desserts-juicy-white-peach-cheesecake-ipa/3160901"
 abv: "8.5"

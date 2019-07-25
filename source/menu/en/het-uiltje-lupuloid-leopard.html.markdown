@@ -4,7 +4,7 @@ date: 2019-03-21T17:53:19.571644Z
 style: "IPA - American"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/3136946"
-rating: "3.82"
+rating: "3.81"
 description: ""
 untappd_url: "https://untappd.com/b/het-uiltje-lupuloid-leopard/3136946"
 abv: "7.2"

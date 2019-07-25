@@ -1,7 +1,7 @@
 ---
 title: "Hunter"
 date: 2019-04-06T13:56:29.791932Z
-style: "Stout - Milk / Sweet"
+style: "Stout - Imperial / Double Milk"
 brewery: "18th Street Brewery"
 image: "https://labels.untappd.com/labels/347608"
 rating: "4.01"

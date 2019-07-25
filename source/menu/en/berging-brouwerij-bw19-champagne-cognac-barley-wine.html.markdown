@@ -4,7 +4,7 @@ date: 2019-04-02T14:38:35.736149Z
 style: "Barleywine - Other"
 brewery: "Berging Brouwerij"
 image: "https://labels.untappd.com/labels/3107786"
-rating: "3.77"
+rating: "3.78"
 description: ""
 untappd_url: "https://untappd.com/b/berging-brouwerij-bw19-champagne-cognac-barley-wine/3107786"
 abv: "9.3"
