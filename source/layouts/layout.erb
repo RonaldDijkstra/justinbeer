@@ -19,8 +19,13 @@
     </main>
     <%= partial "partials/site_footer" %>
     <%= javascript_include_tag "main" %>
+    <%= javascript_include_tag "maps" if proxied_to.to_s == "index.html" || proxied_to.to_s == "contact.html" %>
     <%= partial "partials/analytics" if config[:ga_code] %>
     <%= partial "partials/schema" if proxied_to.to_s == "index.html" %>
-    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7L8yLzq9gDLi4XtKnlXKZzNX3ahqdfY&v=3.exp'></script>
+
+    <% if proxied_to.to_s == "index.html" || proxied_to.to_s == "contact.html" %>
+      <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7L8yLzq9gDLi4XtKnlXKZzNX3ahqdfY&v=3.exp'></script>
+    <% end %>
+
   </body>
 </html>
