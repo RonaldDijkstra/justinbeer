@@ -1,7 +1,7 @@
 ---
 title: "Who Shot the Almond Brothers?"
 date: 2019-02-08T13:52:04.062627Z
-style: "Pastry Stout"
+style: "Stout - Pastry"
 brewery: "Sudden Death Brewing "
 image: "https://labels.untappd.com/labels/2883360"
 rating: "3.95"

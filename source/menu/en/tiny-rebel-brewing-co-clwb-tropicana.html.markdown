@@ -1,7 +1,7 @@
 ---
 title: "Clwb Tropicana"
 date: 2019-02-10T12:25:11.858313Z
-style: "Pale Ale - American"
+style: "IPA - American"
 brewery: "Tiny Rebel Brewing Co"
 image: "https://labels.untappd.com/labels/1425440"
 rating: "3.83"

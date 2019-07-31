@@ -26,24 +26,11 @@ end
 task :build do
   puts "== Project: " + project_name.green
   puts "== Retrieving external data..."
-  system "ruby lib/untappd_menu.rb" || exit(1)
   puts "== Retrieved external data".green
   puts "== Brewing...".green
   system "bundle exec middleman build" || exit(1)
   FileUtils.rm_rf("build/en/beers/", verbose: true)
   FileUtils.rm_rf("build/nl/", verbose: true)
-end
-
-## Build & Proof
-task :proof do
-  puts "== Project: " + project_name.green
-  puts "== Brewing in verbose mode...".green
-  system "bundle exec middleman build" || exit(1)
-  FileUtils.rm_rf("build/en/beers/", verbose: true)
-  FileUtils.rm_rf("build/nl/", verbose: true)
-  # Run html-proofer with options
-  puts "== Proofing the brew...".green
-  system "ruby lib/html_proofer.rb" || exit(1)
 end
 
 def git_branch_name
