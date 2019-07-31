@@ -1,6 +1,5 @@
 # Just in Beer - Craft Beer Store in Groningen
 
-[![CircleCI branch](https://img.shields.io/circleci/project/github/RonaldDijkstra/justinbeer/master.svg)](https://circleci.com/gh/RonaldDijkstra/justinbeer)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=RonaldDijkstra/justinbeer)](https://dependabot.com)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8348fc36-aa9a-4271-92c5-44f5f80db1f7/deploy-status)](https://app.netlify.com/sites/just-in-beer/deploys)
 
