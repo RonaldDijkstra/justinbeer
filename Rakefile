@@ -16,10 +16,22 @@ task :data do
 end
 
 ## Serve
-task :serve do
-  puts "== Project: " + project_name.green
-  puts "== Start server..."
-  system "bundle exec middleman serve" || exit(1)
+namespace :serve do
+  def serve(env)
+    puts "== Project: " + project_name.green
+    puts "== Locale: #{env}"
+    system "LOCALE=#{env} bundle exec middleman serve" || exit(1)
+  end
+
+  desc "Serve NL"
+  task :nl do
+    serve :nl
+  end
+
+  desc "Serve EN"
+  task :en do
+    serve :en
+  end
 end
 
 ## Build the website
