@@ -1,7 +1,7 @@
 ---
 title: "Goldeneye"
 date: 2019-02-10T11:59:13.013029Z
-style: "Pale Ale - English"
+style: "Pale Ale - American"
 brewery: "Black Isle Brewery"
 image: "https://labels.untappd.com/labels/14484"
 rating: "3.52"

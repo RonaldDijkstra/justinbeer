@@ -1,7 +1,7 @@
 ---
 title: "Fudgesicle"
 date: 2019-06-05T10:21:55.586369Z
-style: "Stout - American Imperial / Double"
+style: "Stout - Pastry"
 brewery: "Untitled Art"
 image: "https://labels.untappd.com/labels/3177976"
 rating: "4.23"

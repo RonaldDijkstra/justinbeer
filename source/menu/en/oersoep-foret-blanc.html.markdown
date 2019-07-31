@@ -1,7 +1,7 @@
 ---
 title: "Forêt Blanc"
 date: 2019-02-10T12:12:53.796620Z
-style: "Farmhouse Ale - Saison"
+style: "American Wild Ale"
 brewery: "Oersoep"
 image: "https://labels.untappd.com/labels/2157291"
 rating: "3.68"

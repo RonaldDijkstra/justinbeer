@@ -1,11 +1,11 @@
 ---
 title: "Hybrid"
 date: 2019-04-30T12:06:04.705952Z
-style: "Sour - Farmhouse IPA"
+style: "IPA - Sour"
 brewery: "Kompaan Bier / Brouwerij Kompaan"
 image: "https://labels.untappd.com/labels/3196989"
-rating: "3.5"
-description: ""
+rating: "3.49"
+description: "Yuzu infused sour IPA."
 untappd_url: "https://untappd.com/b/kompaan-bier-brouwerij-kompaan-hybrid/3196989"
 abv: "5.5"
 ibu: "0"
