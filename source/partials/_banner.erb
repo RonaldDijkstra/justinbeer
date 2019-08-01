@@ -19,6 +19,12 @@
                                                  variant: button_variant } %>
       <% end %>
 
+      <% if locals[:discount] %>
+        <div class="discount">
+           <%= t("pages.index.banner.discount") %>
+         </div>
+       <% end %>
+
     </div>
   <% end %>
 </header>
