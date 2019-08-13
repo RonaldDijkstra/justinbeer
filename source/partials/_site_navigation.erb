@@ -35,17 +35,7 @@
         <%= current_link_to t("navigation.contact"), "/contact.html", class: "root-link" %>
       </li>
       <li>
-        <% if lang == :nl %>
-          <a href="/en/" class="language-link">
-            <%= inline_svg "en.svg", alt: "English" %>
-            <span>English</span>
-          </a>
-        <% elsif lang == :en %>
-          <a href="/" class="language-link">
-            <%= inline_svg "nl.svg", alt: "Nederlands" %>
-            <span>Nederlands</span>
-          </a>
-        <% end %>
+        <%= language_switcher %>
       </li>
     </ul>
     <%= partial "partials/social-links" %>
