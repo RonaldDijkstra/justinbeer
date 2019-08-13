@@ -1,20 +1,4 @@
 module ApplicationHelpers
-  def markdown(contents)
-    renderer = Redcarpet::Render::HTML
-    markdown = Redcarpet::Markdown.new(
-      renderer,
-      autolink: true,
-      fenced_code_blocks: true,
-      footnotes: true,
-      highlight: true,
-      smartypants: true,
-      strikethrough: true,
-      tables: true,
-      with_toc_data: true
-    )
-    markdown.render(contents)
-  end
-
   # Get the website name from site.yml
   def website_name
     data.site.name
@@ -171,6 +155,65 @@ module ApplicationHelpers
     end
   end
 
+  # Get locale root path
+  def locale_root_path(page = current_page)
+    page.locale_root_path
+  end
+
+  # Get full root url
+  def full_root_url(lang)
+    case lang
+    when :en
+      full_url("", lang)
+    when :nl
+      full_url("/en", lang)
+    end
+  end
+
+  #
+  # Language Switcher
+  #
+
+  # Define titles for language flags
+  def flag_titles
+    { nl: "Nederlands", de: "Deutsch", en: "English" }
+  end
+
+  # Get flag image
+  def flag_image(lang)
+    inline_svg "#{lang}.svg"
+  end
+
+  def switch_link
+    if x404?
+      full_root_url(lang)
+    else
+      current_page.target_resource.path.gsub("localizable", "").to_s
+    end
+  end
+
+  # LinkTitle
+  def linktitle_with_flag(lang)
+    "#{flag_image(lang)}
+     <span>
+      #{flag_titles[lang]}
+     </span>"
+  end
+
+  def language_switcher
+    html = +""
+    other_locales.each do |lang|
+      html << locale_link_to(
+        linktitle_with_flag(lang),
+        switch_link,
+        class: "language-link",
+        title: flag_titles[lang],
+        locale: lang
+      )
+    end
+    html
+  end
+
   # Get the other languages than current
   def other_locales
     langs - [I18n.locale]
@@ -178,7 +221,7 @@ module ApplicationHelpers
 
   # 404?
   def x404?
-    current_page.url == "/404.html"
+    current_page.url =~ /404.html/
   end
 
   # Root url?
