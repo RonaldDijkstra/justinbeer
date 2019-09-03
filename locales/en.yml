@@ -45,10 +45,6 @@
           text: "The Best Craft Beer Store in Groningen"
           button_text: "Menu"
           button_link: "menu.html"
-          discount: |
-            <strong>☀️ JUST IN BEER SUMMER SALE ☀️</strong><br>
-            <strong>Until August 31:<br>
-            All cans get 6, pay 5!</strong>
       menu:
         latest_update: "Latest Update"
         more_info: "More info"
@@ -74,3 +70,4 @@
           friday: "Friday"
           saturday: "Saturday"
           sunday: "Sunday"
+        first-tuesday: "<span>*</span> note: open every first Tuesday of the month from 13 to 17"

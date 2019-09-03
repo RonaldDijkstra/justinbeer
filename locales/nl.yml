@@ -41,10 +41,6 @@
           text: "De beste speciaalbierwinkel van Groningen"
           button_text: "Menu"
           button_link: "menu.html"
-          discount: |
-            <strong>☀️ JUST IN BEER SUMMER SALE ☀️</strong><br>
-            <strong>Tot en met 31 augustus:<br>
-            Alle blikken 6 halen, 5 betalen!</strong><br>
       menu:
         latest_update: "Laatste update"
         more_info: "Meer info"
@@ -70,3 +66,4 @@
           friday: "Vrijdag"
           saturday: "Zaterdag"
           sunday: "Zondag"
+        first-tuesday: "<span>*</span> let op: iedere eerste dinsdag van de maand geopend van 13 tot 17"
