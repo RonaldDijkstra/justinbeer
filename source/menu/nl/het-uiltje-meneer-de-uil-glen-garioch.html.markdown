@@ -1,6 +1,6 @@
 ---
 title: "Meneer de Uil - Glen Garioch"
-date: 2019-04-11T10:45:33.250195Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/2667062"

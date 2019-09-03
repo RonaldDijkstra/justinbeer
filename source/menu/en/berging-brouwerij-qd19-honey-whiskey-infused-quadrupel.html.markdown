@@ -1,10 +1,10 @@
 ---
 title: "QD19 Honey-Whiskey Infused Quadrupel"
-date: 2019-04-02T14:38:17.731949Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Belgian Quadrupel"
 brewery: "Berging Brouwerij"
 image: "https://labels.untappd.com/labels/3127536"
-rating: "3.56"
+rating: "3.58"
 description: ""
 untappd_url: "https://untappd.com/b/berging-brouwerij-qd19-honey-whiskey-infused-quadrupel/3127536"
 abv: "9.6"

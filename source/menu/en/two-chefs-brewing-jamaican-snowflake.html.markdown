@@ -1,6 +1,6 @@
 ---
 title: "Jamaican Snowflake"
-date: 2019-04-02T13:31:01.132400Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Milk / Sweet"
 brewery: "Two Chefs Brewing"
 image: "https://labels.untappd.com/labels/3030658"

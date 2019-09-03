@@ -1,6 +1,6 @@
 ---
 title: "Claudia"
-date: 2019-03-20T13:51:35.938858Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Wheat Beer - American Pale Wheat"
 brewery: "Moor Beer Company"
 image: "https://labels.untappd.com/labels/415378"

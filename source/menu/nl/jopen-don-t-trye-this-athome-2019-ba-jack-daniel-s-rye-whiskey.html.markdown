@@ -1,6 +1,6 @@
 ---
 title: "Don't TRYE This @Home 2019 BA Jack Daniel's Rye Whiskey"
-date: 2019-07-10T12:04:22.231019Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Rye Wine"
 brewery: "Jopen"
 image: "https://labels.untappd.com/labels/3262203"

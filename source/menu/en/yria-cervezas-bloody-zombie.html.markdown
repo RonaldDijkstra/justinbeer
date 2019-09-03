@@ -1,6 +1,6 @@
 ---
 title: "Bloody Zombie"
-date: 2019-03-20T13:54:02.063903Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Triple"
 brewery: "Yria Cervezas"
 image: "https://labels.untappd.com/labels/1775435"

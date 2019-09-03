@@ -1,6 +1,6 @@
 ---
 title: "Koene Ridder"
-date: 2019-04-30T12:05:22.790339Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Belgian Tripel"
 brewery: "Rock City Brewing"
 image: "https://labels.untappd.com/labels/643072"

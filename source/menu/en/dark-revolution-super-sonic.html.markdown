@@ -1,6 +1,6 @@
 ---
 title: "Super Sonic"
-date: 2019-03-20T13:52:57.032078Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - American"
 brewery: "Dark Revolution"
 image: "https://labels.untappd.com/labels/2623890"

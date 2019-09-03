@@ -1,6 +1,6 @@
 ---
 title: "Hongkong Honcho"
-date: 2019-05-10T12:50:47.129010Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - American"
 brewery: "Alefarm Brewing"
 image: "https://labels.untappd.com/labels/3196801"

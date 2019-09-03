@@ -1,6 +1,6 @@
 ---
 title: "Amber"
-date: 2019-04-13T11:56:36.657462Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Red Ale - American Amber / Red"
 brewery: "Brouwerij Frontaal"
 image: "https://labels.untappd.com/labels/3123657"

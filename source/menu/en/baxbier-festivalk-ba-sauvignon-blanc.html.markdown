@@ -1,6 +1,6 @@
 ---
 title: "Festivalk - BA Sauvignon Blanc"
-date: 2019-03-15T11:52:49.063927Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Farmhouse Ale - Saison"
 brewery: "Baxbier"
 image: "https://labels.untappd.com/labels/2702101"

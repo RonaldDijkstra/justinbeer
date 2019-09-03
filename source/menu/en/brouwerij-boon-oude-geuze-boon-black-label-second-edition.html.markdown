@@ -1,6 +1,6 @@
 ---
 title: "Oude Geuze Boon Black Label Second Edition"
-date: 2019-03-16T11:31:29.555560Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Lambic - Gueuze"
 brewery: "Brouwerij Boon"
 image: "https://labels.untappd.com/labels/1709980"

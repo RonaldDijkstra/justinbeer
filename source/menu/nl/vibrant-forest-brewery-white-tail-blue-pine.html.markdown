@@ -1,6 +1,6 @@
 ---
 title: "White Tail, Blue Pine"
-date: 2019-04-06T13:38:32.026331Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Imperial / Double New England"
 brewery: "Vibrant Forest Brewery"
 image: "https://labels.untappd.com/labels/3102564"

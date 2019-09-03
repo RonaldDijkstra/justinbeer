@@ -1,6 +1,6 @@
 ---
 title: "Zonnig Zeewit"
-date: 2019-04-16T11:40:53.507372Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Witbier"
 brewery: "Gebrouwen Door Vrouwen"
 image: "https://labels.untappd.com/labels/2615915"

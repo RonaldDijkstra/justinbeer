@@ -1,6 +1,6 @@
 ---
 title: "Lowlander I.P.A."
-date: 2019-03-14T10:24:27.879435Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - International"
 brewery: "Lowlander Beer"
 image: "https://labels.untappd.com/labels/1192238"

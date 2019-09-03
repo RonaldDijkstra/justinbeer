@@ -1,6 +1,6 @@
 ---
 title: "Brews Springsteen"
-date: 2019-04-16T11:44:17.364843Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - White"
 brewery: "Rock City Brewing"
 image: "https://labels.untappd.com/labels/3129261"

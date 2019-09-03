@@ -1,6 +1,6 @@
 ---
 title: "Spring Blossom Pale Ale"
-date: 2019-03-14T10:21:29.795858Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - English"
 brewery: "Brouwerij Kees"
 image: "https://labels.untappd.com/labels/1458861"

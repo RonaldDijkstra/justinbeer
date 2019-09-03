@@ -1,6 +1,6 @@
 ---
 title: "Lupuloid Leopard"
-date: 2019-03-21T17:53:19.571644Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - American"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/3136946"

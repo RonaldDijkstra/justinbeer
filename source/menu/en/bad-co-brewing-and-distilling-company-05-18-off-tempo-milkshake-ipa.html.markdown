@@ -1,6 +1,6 @@
 ---
 title: "05 18 Off-Tempo Milkshake IPA"
-date: 2019-07-19T13:11:54.163220Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Milkshake"
 brewery: "BAD Co. - Brewing & Distilling Company"
 image: "https://labels.untappd.com/labels/2896820"

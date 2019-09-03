@@ -1,6 +1,6 @@
 ---
 title: "Critical Thinking"
-date: 2019-03-14T10:25:30.486038Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "Stillwater Artisanal"
 image: "https://labels.untappd.com/labels/2459003"

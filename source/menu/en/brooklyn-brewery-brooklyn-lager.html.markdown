@@ -1,6 +1,6 @@
 ---
 title: "Brooklyn Lager"
-date: 2019-03-28T11:10:31.316261Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Lager - Vienna"
 brewery: "Brooklyn Brewery"
 image: "https://labels.untappd.com/labels/3558"

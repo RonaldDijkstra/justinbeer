@@ -1,6 +1,6 @@
 ---
 title: "Plead The 5th Imperial Stout"
-date: 2019-04-18T13:48:11.387870Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Russian Imperial"
 brewery: "Dark Horse Brewing Co."
 image: "https://labels.untappd.com/labels/5772"

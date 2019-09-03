@@ -1,10 +1,10 @@
 ---
 title: "DDH Pale Ale"
-date: 2019-06-07T12:17:30.828360Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - New England"
 brewery: "Brouwerij Frontaal"
 image: "https://labels.untappd.com/labels/3230964"
-rating: "3.62"
+rating: "3.6"
 description: "DDH Pale Ale with Centennial & Ekuanot"
 untappd_url: "https://untappd.com/b/brouwerij-frontaal-ddh-pale-ale/3230964"
 abv: "5.3"

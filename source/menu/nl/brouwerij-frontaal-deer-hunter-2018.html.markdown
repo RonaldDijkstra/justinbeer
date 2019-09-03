@@ -1,6 +1,6 @@
 ---
 title: "Deer Hunter (2018)"
-date: 2019-04-13T11:56:22.122178Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Russian Imperial"
 brewery: "Brouwerij Frontaal"
 image: "https://labels.untappd.com/labels/1753543"

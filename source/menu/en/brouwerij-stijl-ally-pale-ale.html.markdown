@@ -1,6 +1,6 @@
 ---
 title: "Ally Pale Ale"
-date: 2019-06-26T12:38:29.156787Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - American"
 brewery: "Brouwerij Stijl"
 image: "https://labels.untappd.com/labels/3188804"

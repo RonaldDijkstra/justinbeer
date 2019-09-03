@@ -1,6 +1,6 @@
 ---
 title: "A New Chapter"
-date: 2019-05-22T14:26:55.763743Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Lager - IPL (India Pale Lager)"
 brewery: "Cloudwater Brew Co."
 image: "https://labels.untappd.com/labels/3144907"

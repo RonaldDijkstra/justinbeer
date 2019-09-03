@@ -1,6 +1,6 @@
 ---
 title: "Dragon’s Milk"
-date: 2019-04-06T13:55:56.988210Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - American Imperial / Double"
 brewery: "New Holland Brewing "
 image: "https://labels.untappd.com/labels/123662"

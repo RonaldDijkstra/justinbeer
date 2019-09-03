@@ -1,6 +1,6 @@
 ---
 title: "Dragon’s Milk Reserve: S’mores"
-date: 2019-04-18T13:51:52.992628Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "New Holland Brewing "
 image: "https://labels.untappd.com/labels/1617836"

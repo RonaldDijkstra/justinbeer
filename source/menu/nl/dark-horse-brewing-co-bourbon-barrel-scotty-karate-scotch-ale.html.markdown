@@ -1,6 +1,6 @@
 ---
 title: "Bourbon Barrel Scotty Karate Scotch Ale"
-date: 2019-04-06T14:01:11.654262Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Scotch Ale / Wee Heavy"
 brewery: "Dark Horse Brewing Co."
 image: "https://labels.untappd.com/labels/34092"

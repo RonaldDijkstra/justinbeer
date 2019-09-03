@@ -1,6 +1,6 @@
 ---
 title: "Zo"
-date: 2019-03-14T10:21:07.405660Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Session / India Session Ale"
 brewery: "Brauhaus Bevog"
 image: "https://labels.untappd.com/labels/2065254"

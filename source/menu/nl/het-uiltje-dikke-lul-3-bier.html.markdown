@@ -1,6 +1,6 @@
 ---
 title: "Dikke lul 3 bier!"
-date: 2019-03-28T11:10:08.623950Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - American"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/627841"

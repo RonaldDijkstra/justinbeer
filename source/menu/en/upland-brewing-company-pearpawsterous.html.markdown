@@ -1,6 +1,6 @@
 ---
 title: "Pearpawsterous"
-date: 2019-04-06T13:58:51.567901Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Fruited"
 brewery: "Upland Brewing Company"
 image: "https://labels.untappd.com/labels/2553951"

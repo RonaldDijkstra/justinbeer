@@ -1,6 +1,6 @@
 ---
 title: "Lowlander White Ale"
-date: 2019-03-14T10:24:21.915767Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Witbier"
 brewery: "Lowlander Beer"
 image: "https://labels.untappd.com/labels/1192237"

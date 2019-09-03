@@ -1,6 +1,6 @@
 ---
 title: "Tomahawk Tiger Shark"
-date: 2019-06-28T15:11:05.433940Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Imperial / Double"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/3302133"

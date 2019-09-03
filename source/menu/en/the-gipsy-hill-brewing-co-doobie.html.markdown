@@ -1,6 +1,6 @@
 ---
 title: "Doobie"
-date: 2019-05-31T15:34:57.273581Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Gose - Fruited"
 brewery: "The Gipsy Hill Brewing Co."
 image: "https://labels.untappd.com/labels/3234725"

@@ -1,6 +1,6 @@
 ---
 title: "Fanatic (Amarillo, Ahtanum, Ekuanot)"
-date: 2019-05-10T12:51:33.436937Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Milkshake"
 brewery: "Naparbier"
 image: "https://labels.untappd.com/labels/3103903"

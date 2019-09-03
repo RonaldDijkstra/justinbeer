@@ -1,6 +1,6 @@
 ---
 title: "Rebel IPA"
-date: 2019-07-10T12:01:23.688592Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Non-Alcoholic Beer"
 brewery: "Braxzz"
 image: "https://labels.untappd.com/labels/2757780"

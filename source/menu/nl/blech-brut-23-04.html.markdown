@@ -1,10 +1,10 @@
 ---
 title: "23/04"
-date: 2019-05-01T14:26:10.923031Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "Blech.Brut"
 image: "https://labels.untappd.com/labels/3103879"
-rating: "3.93"
+rating: "3.92"
 description: "Baustelle 23/04  DDH (Citra/Simcoe) "
 untappd_url: "https://untappd.com/b/blech-brut-23-04/3103879"
 abv: "6.5"

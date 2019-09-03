@@ -1,6 +1,6 @@
 ---
 title: "Blue Blood Fuck You!!"
-date: 2019-03-20T13:54:32.976224Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "La Calavera"
 image: "https://labels.untappd.com/labels/2493660"

@@ -1,6 +1,6 @@
 ---
 title: "Feral By Nature: Peach"
-date: 2019-04-06T13:58:27.740888Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Fruited"
 brewery: "Black Acre Brewing Co."
 image: "https://labels.untappd.com/labels/2592381"

@@ -1,6 +1,6 @@
 ---
 title: "Hazy Vibes: Citra & Mosaic"
-date: 2019-07-05T13:53:02.075059Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - American"
 brewery: "Cervecera Península"
 image: "https://labels.untappd.com/labels/3029974"

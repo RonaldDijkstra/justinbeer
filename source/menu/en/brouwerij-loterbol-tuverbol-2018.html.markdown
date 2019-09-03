@@ -1,6 +1,6 @@
 ---
 title: "Tuverbol (2018)"
-date: 2019-05-22T14:20:33.249503Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Belgian Strong Golden Ale"
 brewery: "Brouwerij Loterbol"
 image: "https://labels.untappd.com/labels/3090308"

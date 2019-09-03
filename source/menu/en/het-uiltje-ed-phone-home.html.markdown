@@ -1,6 +1,6 @@
 ---
 title: "ED Phone Home"
-date: 2019-07-12T13:17:01.059151Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Session / India Session Ale"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/3325292"

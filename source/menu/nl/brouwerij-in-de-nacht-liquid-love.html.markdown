@@ -1,6 +1,6 @@
 ---
 title: "Liquid Love"
-date: 2019-04-16T11:40:42.710900Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Oatmeal"
 brewery: "Brouwerij In De Nacht"
 image: "https://labels.untappd.com/labels/2388053"

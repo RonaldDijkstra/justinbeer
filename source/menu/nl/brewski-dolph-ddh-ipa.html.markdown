@@ -1,6 +1,6 @@
 ---
 title: "Dolph DDH IPA"
-date: 2019-04-11T15:28:04.104137Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "Brewski"
 image: "https://labels.untappd.com/labels/2576690"

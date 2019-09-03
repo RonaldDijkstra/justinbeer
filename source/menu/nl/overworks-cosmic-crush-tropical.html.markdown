@@ -1,6 +1,6 @@
 ---
 title: "Cosmic Crush Tropical"
-date: 2019-07-25T14:21:24.360767Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Fruited"
 brewery: "OverWorks"
 image: "https://labels.untappd.com/labels/2992312"

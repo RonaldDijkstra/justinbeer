@@ -1,6 +1,6 @@
 ---
 title: "RISky Business - Islay BA"
-date: 2019-07-10T12:06:36.111152Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Russian Imperial"
 brewery: "vandeStreek bier"
 image: "https://labels.untappd.com/labels/3296989"

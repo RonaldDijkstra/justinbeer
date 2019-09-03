@@ -1,6 +1,6 @@
 ---
 title: "F*ck The Caravan Is On Fire! / F*ck De Caravan Staat In De Fik!"
-date: 2019-07-12T13:16:42.526704Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Wheat Beer - American Pale Wheat"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/1656054"

@@ -1,6 +1,6 @@
 ---
 title: "BAG HANDLER"
-date: 2019-04-11T15:36:17.441836Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - American"
 brewery: "Garage Beer Co."
 image: "https://labels.untappd.com/labels/3036358"

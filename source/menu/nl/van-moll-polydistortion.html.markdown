@@ -1,6 +1,6 @@
 ---
 title: "Polydistortion"
-date: 2019-05-15T15:04:41.516093Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Milkshake"
 brewery: "Van Moll"
 image: "https://labels.untappd.com/labels/3039727"

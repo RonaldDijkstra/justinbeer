@@ -1,6 +1,6 @@
 ---
 title: "Panòptic"
-date: 2019-05-15T14:47:26.214236Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "La Pirata Brewing"
 image: "https://labels.untappd.com/labels/2271766"

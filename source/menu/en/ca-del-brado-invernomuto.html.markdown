@@ -1,6 +1,6 @@
 ---
 title: "Invernomuto"
-date: 2019-06-21T13:38:42.130329Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Other"
 brewery: "Ca' del Brado"
 image: "https://labels.untappd.com/labels/1952812"

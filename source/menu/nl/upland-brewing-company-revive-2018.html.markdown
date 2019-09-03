@@ -1,6 +1,6 @@
 ---
 title: "Revive (2018)"
-date: 2019-04-18T13:49:17.513213Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Other"
 brewery: "Upland Brewing Company"
 image: "https://labels.untappd.com/labels/2603306"

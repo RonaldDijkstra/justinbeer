@@ -1,6 +1,6 @@
 ---
 title: "Wisconsin Stout"
-date: 2019-06-05T10:21:00.226359Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "Untitled Art"
 image: "https://labels.untappd.com/labels/3137486"

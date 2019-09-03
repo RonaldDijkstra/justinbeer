@@ -1,6 +1,6 @@
 ---
 title: "Kiwi "
-date: 2019-04-06T14:00:33.879473Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Fruited"
 brewery: "Upland Brewing Company"
 image: "https://labels.untappd.com/labels/36977"

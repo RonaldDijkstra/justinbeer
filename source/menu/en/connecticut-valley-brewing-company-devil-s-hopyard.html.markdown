@@ -1,6 +1,6 @@
 ---
 title: "Devil's Hopyard"
-date: 2019-06-05T10:18:59.121198Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Imperial / Double New England"
 brewery: "Connecticut Valley Brewing Company"
 image: "https://labels.untappd.com/labels/2575928"

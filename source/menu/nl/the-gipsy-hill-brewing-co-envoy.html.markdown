@@ -1,6 +1,6 @@
 ---
 title: "Envoy"
-date: 2019-04-06T13:40:46.777832Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Fruited"
 brewery: "The Gipsy Hill Brewing Co."
 image: "https://labels.untappd.com/labels/3130494"

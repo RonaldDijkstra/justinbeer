@@ -1,6 +1,6 @@
 ---
 title: "Virmalised"
-date: 2019-03-14T10:22:00.497752Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - American"
 brewery: "Põhjala"
 image: "https://labels.untappd.com/labels/673150"

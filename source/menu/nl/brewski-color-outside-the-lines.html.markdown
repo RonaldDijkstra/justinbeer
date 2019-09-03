@@ -1,6 +1,6 @@
 ---
 title: "Color Outside the Lines"
-date: 2019-04-11T15:27:33.519043Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Session / India Session Ale"
 brewery: "Brewski"
 image: "https://labels.untappd.com/labels/2830855"

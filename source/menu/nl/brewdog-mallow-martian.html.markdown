@@ -1,6 +1,6 @@
 ---
 title: "Mallow Martian"
-date: 2019-03-14T10:20:38.442217Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double Milk"
 brewery: "BrewDog"
 image: "https://labels.untappd.com/labels/2984279"

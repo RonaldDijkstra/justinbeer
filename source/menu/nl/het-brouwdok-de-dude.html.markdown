@@ -1,6 +1,6 @@
 ---
 title: "De Dude"
-date: 2019-04-16T11:39:34.787980Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double Milk"
 brewery: "Het Brouwdok"
 image: "https://labels.untappd.com/labels/2052229"

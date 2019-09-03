@@ -1,6 +1,6 @@
 ---
 title: "Barrel Project 19.05"
-date: 2019-05-15T14:46:06.847018Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Barleywine - American"
 brewery: "Brouwerij Kees"
 image: "https://labels.untappd.com/labels/3173504"

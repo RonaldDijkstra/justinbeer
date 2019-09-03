@@ -1,6 +1,6 @@
 ---
 title: "Can U Fix Seed?"
-date: 2019-05-31T15:33:11.622370Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "Uncle Brew"
 image: "https://labels.untappd.com/labels/2917424"

@@ -1,6 +1,6 @@
 ---
 title: "Who Cares Editions: Hazy Bar"
-date: 2019-05-15T14:43:30.809884Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "Brauhaus Bevog"
 image: "https://labels.untappd.com/labels/3090687"

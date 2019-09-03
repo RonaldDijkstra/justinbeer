@@ -1,6 +1,6 @@
 ---
 title: "Double Dry Hopped Galaxy IPA"
-date: 2019-04-16T11:43:51.747868Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "vandeStreek bier"
 image: "https://labels.untappd.com/labels/3143607"

@@ -1,6 +1,6 @@
 ---
 title: "π I.P.A."
-date: 2019-07-10T11:58:41.716144Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - American"
 brewery: "Brouwerij De School"
 image: "https://labels.untappd.com/labels/2419027"

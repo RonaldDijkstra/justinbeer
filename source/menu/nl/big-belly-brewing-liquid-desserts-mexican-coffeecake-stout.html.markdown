@@ -1,6 +1,6 @@
 ---
 title: "Liquid Desserts - Mexican Coffeecake Stout"
-date: 2019-05-15T14:44:04.520042Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - American Imperial / Double"
 brewery: "Big Belly Brewing"
 image: "https://labels.untappd.com/labels/2974876"

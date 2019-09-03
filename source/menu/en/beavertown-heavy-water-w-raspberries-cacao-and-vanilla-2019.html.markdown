@@ -1,6 +1,6 @@
 ---
 title: "Heavy Water w/ Raspberries, Cacao & Vanilla 2019"
-date: 2019-04-11T15:27:16.418073Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "Beavertown"
 image: "https://labels.untappd.com/labels/2484636"

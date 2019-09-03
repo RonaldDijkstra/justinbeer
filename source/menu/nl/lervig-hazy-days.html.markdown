@@ -1,6 +1,6 @@
 ---
 title: "Hazy Days"
-date: 2019-05-10T12:50:02.149940Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - New England"
 brewery: "LERVIG"
 image: "https://labels.untappd.com/labels/2155437"

@@ -1,6 +1,6 @@
 ---
 title: "Walk Like An Egyptian"
-date: 2019-05-01T14:25:11.749449Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "Sudden Death Brewing "
 image: "https://labels.untappd.com/labels/3136883"

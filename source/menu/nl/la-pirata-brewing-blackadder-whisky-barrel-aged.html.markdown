@@ -1,6 +1,6 @@
 ---
 title: "Blackadder Whisky Barrel Aged"
-date: 2019-05-15T14:47:48.225040Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Porter - Imperial / Double"
 brewery: "La Pirata Brewing"
 image: "https://labels.untappd.com/labels/3093770"

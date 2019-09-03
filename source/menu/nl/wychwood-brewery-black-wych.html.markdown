@@ -1,6 +1,6 @@
 ---
 title: "Black Wych"
-date: 2019-03-14T10:25:10.033364Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Porter - English"
 brewery: "Wychwood Brewery"
 image: "https://labels.untappd.com/labels/1598"

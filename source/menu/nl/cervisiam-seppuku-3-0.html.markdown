@@ -1,6 +1,6 @@
 ---
 title: "SEPPUKU 3.0"
-date: 2019-05-01T13:58:33.916373Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - New England"
 brewery: "Cervisiam"
 image: "https://labels.untappd.com/labels/3138394"

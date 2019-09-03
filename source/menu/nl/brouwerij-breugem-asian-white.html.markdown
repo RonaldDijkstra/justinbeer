@@ -1,6 +1,6 @@
 ---
 title: "Asian White"
-date: 2019-03-19T12:46:51.898469Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Witbier"
 brewery: "Brouwerij Breugem"
 image: "https://labels.untappd.com/labels/2126756"

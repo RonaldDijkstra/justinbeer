@@ -1,6 +1,6 @@
 ---
 title: "Raisins, Almonds And Figs ... OH MY!"
-date: 2019-04-18T13:49:43.506530Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Imperial / Double"
 brewery: "Odd Side Ales"
 image: "https://labels.untappd.com/labels/2955493"

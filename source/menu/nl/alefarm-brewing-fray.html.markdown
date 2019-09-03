@@ -1,6 +1,6 @@
 ---
 title: "Fray"
-date: 2019-05-10T12:50:25.996736Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - American"
 brewery: "Alefarm Brewing"
 image: "https://labels.untappd.com/labels/3113638"

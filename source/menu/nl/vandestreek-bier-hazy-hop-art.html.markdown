@@ -1,6 +1,6 @@
 ---
 title: "Hazy Hop Art"
-date: 2019-07-10T12:01:42.176221Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - New England"
 brewery: "vandeStreek bier"
 image: "https://labels.untappd.com/labels/3244375"

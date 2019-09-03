@@ -1,6 +1,6 @@
 ---
 title: "Boysenberry Blueberry  Fruitsicle"
-date: 2019-06-05T10:18:15.776779Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Fruit Beer"
 brewery: "Odd Side Ales"
 image: "https://labels.untappd.com/labels/2839932"

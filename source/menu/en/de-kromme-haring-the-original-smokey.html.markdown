@@ -1,6 +1,6 @@
 ---
 title: "The Original Smokey"
-date: 2019-05-04T11:48:38.714908Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Smoked Beer"
 brewery: "De Kromme Haring"
 image: "https://labels.untappd.com/labels/2310572"

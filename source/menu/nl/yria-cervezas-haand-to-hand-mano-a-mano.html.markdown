@@ -1,6 +1,6 @@
 ---
 title: "Haand To Hand (mano A Mano)"
-date: 2019-03-20T13:53:47.922085Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Belgian Quadrupel"
 brewery: "Yria Cervezas"
 image: "https://labels.untappd.com/labels/2953997"

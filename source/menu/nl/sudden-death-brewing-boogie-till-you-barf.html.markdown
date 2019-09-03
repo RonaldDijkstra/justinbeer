@@ -1,6 +1,6 @@
 ---
 title: "Boogie Till You Barf"
-date: 2019-05-30T13:15:20.593750Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Triple"
 brewery: "Sudden Death Brewing "
 image: "https://labels.untappd.com/labels/3191919"

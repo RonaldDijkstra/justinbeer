@@ -1,6 +1,6 @@
 ---
 title: "Wee Heavy Scotch Ale"
-date: 2019-03-14T10:23:57.822996Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Scotch Ale / Wee Heavy"
 brewery: "Brouwerij Kees"
 image: "https://labels.untappd.com/labels/1247281"

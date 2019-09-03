@@ -1,6 +1,6 @@
 ---
 title: "Black Seas of Infinity"
-date: 2019-03-30T14:10:47.742262Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Russian Imperial"
 brewery: "Tibidabo Brewing "
 image: "https://labels.untappd.com/labels/2956783"

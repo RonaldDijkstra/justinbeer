@@ -1,6 +1,6 @@
 ---
 title: "DRIPA"
-date: 2019-06-05T10:13:33.974756Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Imperial / Double"
 brewery: "Kuhnhenn Brewing Company"
 image: "https://labels.untappd.com/labels/8763"

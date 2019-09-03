@@ -1,6 +1,6 @@
 ---
 title: "Don't tRYE this @home!! Cognac BA"
-date: 2019-02-08T13:34:24.331664Z
+date: 2019-08-21T12:05:58.475937Z
 style: "Rye Wine"
 brewery: "Jopen"
 image: "https://labels.untappd.com/labels/1859181"

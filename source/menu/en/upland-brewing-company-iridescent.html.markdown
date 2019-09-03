@@ -1,6 +1,6 @@
 ---
 title: "Iridescent"
-date: 2019-04-18T13:50:02.186998Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Sour - Fruited"
 brewery: "Upland Brewing Company"
 image: "https://labels.untappd.com/labels/1921450"

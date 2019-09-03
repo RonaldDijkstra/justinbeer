@@ -1,6 +1,6 @@
 ---
 title: "Enough......is Never Enough"
-date: 2019-05-15T14:46:43.495102Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Triple"
 brewery: "Brouwerij Kees"
 image: "https://labels.untappd.com/labels/3177606"

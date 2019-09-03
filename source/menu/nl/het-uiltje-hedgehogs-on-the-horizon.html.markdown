@@ -1,6 +1,6 @@
 ---
 title: "Hedgehogs on the Horizon!"
-date: 2019-04-04T16:11:11.346109Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Black / Cascadian Dark Ale"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/3157997"

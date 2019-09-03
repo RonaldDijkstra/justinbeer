@@ -1,6 +1,6 @@
 ---
 title: "Zwarte Snorre Barrel Aged Laphroaig Whisky"
-date: 2019-07-25T14:20:17.301823Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Russian Imperial"
 brewery: "Berghoeve Brouwerij"
 image: "https://labels.untappd.com/labels/3240752"

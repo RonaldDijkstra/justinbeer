@@ -1,6 +1,6 @@
 ---
 title: "Under the Radar"
-date: 2019-05-15T15:03:16.317284Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Non-Alcoholic Beer"
 brewery: "To Øl"
 image: "https://labels.untappd.com/labels/2796974"

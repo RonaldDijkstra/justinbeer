@@ -1,6 +1,6 @@
 ---
 title: "Teddy Bear Kisses"
-date: 2019-04-18T13:48:28.260549Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Stout - Russian Imperial"
 brewery: "Upland Brewing Company"
 image: "https://labels.untappd.com/labels/7583"

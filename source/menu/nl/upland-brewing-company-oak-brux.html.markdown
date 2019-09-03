@@ -1,6 +1,6 @@
 ---
 title: "Oak Brux"
-date: 2019-04-06T13:59:11.927261Z
+date: 2019-08-21T12:05:58.457717Z
 style: "American Wild Ale"
 brewery: "Upland Brewing Company"
 image: "https://labels.untappd.com/labels/1729148"

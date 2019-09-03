@@ -1,6 +1,6 @@
 ---
 title: "Zwaanzinnig"
-date: 2019-04-02T14:39:01.114680Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Witbier"
 brewery: "Bird Brewery"
 image: "https://labels.untappd.com/labels/2537739"

@@ -1,6 +1,6 @@
 ---
 title: "#WWW.OOOOOO.DDD"
-date: 2019-05-22T14:25:54.513938Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Smoked Beer"
 brewery: "Cloudwater Brew Co."
 image: "https://labels.untappd.com/labels/3135423"

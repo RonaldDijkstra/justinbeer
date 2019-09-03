@@ -1,6 +1,6 @@
 ---
 title: "Berry And The Bretts"
-date: 2019-05-10T12:51:10.701911Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Fruit Beer"
 brewery: "Tempest Brewing Co."
 image: "https://labels.untappd.com/labels/3084394"

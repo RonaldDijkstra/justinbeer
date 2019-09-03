@@ -1,6 +1,6 @@
 ---
 title: "Kiss From A Rose"
-date: 2019-05-15T15:07:34.465799Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Witbier"
 brewery: "Van Moll"
 image: "https://labels.untappd.com/labels/3158887"

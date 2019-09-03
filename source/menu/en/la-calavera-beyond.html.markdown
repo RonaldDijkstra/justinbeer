@@ -4,7 +4,7 @@ date: 2019-02-10T11:50:26.114023Z
 style: "Belgian Blonde"
 brewery: "La Calavera"
 image: "https://labels.untappd.com/labels/2558539"
-rating: "3.6"
+rating: "3.61"
 description: "Belgian blonde aged in white wine barrels."
 untappd_url: "https://untappd.com/b/la-calavera-beyond/2558539"
 abv: "6.2"

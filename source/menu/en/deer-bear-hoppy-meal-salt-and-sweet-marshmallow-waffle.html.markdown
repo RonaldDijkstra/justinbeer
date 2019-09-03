@@ -1,6 +1,6 @@
 ---
 title: "Hoppy Meal Salt And Sweet Marshmallow Waffle"
-date: 2019-06-21T13:53:58.178938Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - New England"
 brewery: "Deer Bear"
 image: "https://labels.untappd.com/labels/3151913"

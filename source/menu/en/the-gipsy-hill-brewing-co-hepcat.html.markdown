@@ -1,6 +1,6 @@
 ---
 title: "Hepcat"
-date: 2019-04-06T13:43:02.693194Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Session / India Session Ale"
 brewery: "The Gipsy Hill Brewing Co."
 image: "https://labels.untappd.com/labels/1173294"

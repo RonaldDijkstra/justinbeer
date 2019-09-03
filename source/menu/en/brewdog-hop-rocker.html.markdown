@@ -1,6 +1,6 @@
 ---
 title: "Hop Rocker"
-date: 2019-04-25T11:25:58.819222Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Lager - IPL (India Pale Lager)"
 brewery: "BrewDog"
 image: "https://labels.untappd.com/labels/3050713"

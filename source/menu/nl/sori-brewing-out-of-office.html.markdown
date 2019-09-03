@@ -1,6 +1,6 @@
 ---
 title: "Out of Office"
-date: 2019-06-22T14:48:30.838603Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Session / India Session Ale"
 brewery: "Sori Brewing"
 image: "https://labels.untappd.com/labels/1091600"

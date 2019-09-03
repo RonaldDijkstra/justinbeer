@@ -1,6 +1,6 @@
 ---
 title: "Double Hipster Apocalypse"
-date: 2019-06-05T10:12:18.410358Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - Imperial / Double"
 brewery: "Mason's Brewing Company"
 image: "https://labels.untappd.com/labels/2759001"

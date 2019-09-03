@@ -1,6 +1,6 @@
 ---
 title: "Dakuwaqa White Session IPA (2019 Edition)"
-date: 2019-05-04T11:46:36.941598Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - White"
 brewery: "Walhalla Brouwerij & Proeflokaal"
 image: "https://labels.untappd.com/labels/3169352"

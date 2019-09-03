@@ -1,6 +1,6 @@
 ---
 title: "Pupa"
-date: 2019-04-06T13:38:05.978844Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Pale Ale - New England"
 brewery: "Vibrant Forest Brewery"
 image: "https://labels.untappd.com/labels/2644377"

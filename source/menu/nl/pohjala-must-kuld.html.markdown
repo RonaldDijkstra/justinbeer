@@ -1,6 +1,6 @@
 ---
 title: "Must Kuld"
-date: 2019-03-14T10:23:33.688753Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Porter - Other"
 brewery: "Põhjala"
 image: "https://labels.untappd.com/labels/733444"

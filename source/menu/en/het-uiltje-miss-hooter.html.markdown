@@ -1,6 +1,6 @@
 ---
 title: "Miss Hooter"
-date: 2019-05-15T12:17:51.641435Z
+date: 2019-08-21T12:05:58.457717Z
 style: "IPA - White"
 brewery: "Het Uiltje"
 image: "https://labels.untappd.com/labels/1858835"

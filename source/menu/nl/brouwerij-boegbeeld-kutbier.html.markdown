@@ -1,6 +1,6 @@
 ---
 title: "Kutbier"
-date: 2019-07-24T09:45:18.862821Z
+date: 2019-08-21T12:05:58.457717Z
 style: "Belgian Blonde"
 brewery: "Brouwerij Boegbeeld"
 image: "https://labels.untappd.com/labels/1268895"
