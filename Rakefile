@@ -7,14 +7,6 @@ def project_name
   "Just in Beer 2019 🍺"
 end
 
-## Get new data
-task :data do
-  puts "== Retrieving external data..."
-  system "ruby lib/untappd_menu.rb" || exit(1)
-  puts "== Retrieved external data".green
-  exit
-end
-
 ## Serve
 namespace :serve do
   def serve(env)
@@ -37,8 +29,6 @@ end
 ## Build the website
 task :build do
   puts "== Project: " + project_name.green
-  puts "== Retrieving external data..."
-  puts "== Retrieved external data".green
   puts "== Brewing...".green
   system "bundle exec middleman build" || exit(1)
   FileUtils.rm_rf("build/en/beers/", verbose: true)

@@ -29,25 +29,13 @@ set :markdown_engine, :kramdown
 set :markdown, input: "GFM",
                auto_ids: true
 
-activate :blog do |blog|
-  blog.name = "menu"
-  blog.sources = "/menu/:lang/:title.html"
-  blog.permalink = ":lang/beers/:title"
-  blog.paginate = true
-  blog.page_link = "{num}"
-  blog.per_page = 50
-end
-
 # Without layout
 page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/*.xml", layout: false
-page "/menu/nl/*", layout: false
-page "/menu/en/*", layout: false
 
 # Settings for production
 configure :production do
-  require "lib/untappd_menu"
 
   activate :asset_hash, ignore: ["assets/images/maps-marker.png"]
   # activate :gzip

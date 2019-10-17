@@ -15,33 +15,10 @@ image: assets/images/og-image-menu.jpg
 
 <section class="untappd-menu">
   <div class="grid-row">
-
-    <div class="headline">
-      <h2>
-        <%= t("pages.menu.sub_title") %>
-      </h2>
-      <p>
-        <%= t("pages.menu.text") %>
-      </p>
-      <p>
-        <%= t("pages.menu.latest_update") %>:
-        <em>
-          <% if lang == :nl %>
-            <%= Date.today.strftime('%d-%m-%Y') %>
-          <% else %>
-            <%= Date.today %>
-          <% end %>
-        </em>
-      </p>
-    </div>
-
-    <ul>
-      <% page_articles.each do |article| %>
-        <%= partial "partials/untappd-menu-item", locals: { article: article } %>
-      <% end %>
-    </ul>
-
-    <%= partial "partials/pagination", locals: current_page.metadata[:locals] %>
-
+    <div id="menu-container"></div>
   </div>
 </section>
+
+<script type="text/javascript">
+    !function(e,n){var t=document.createElement("script"),a=document.getElementsByTagName("script")[0];t.async=1,a.parentNode.insertBefore(t,a),t.onload=t.onreadystatechange=function(e,a){(a||!t.readyState||/loaded|complete/.test(t.readyState))&&(t.onload=t.onreadystatechange=null,t=void 0,a||n&&n())},t.src=e}("https://embed-menu-preloader.untappdapi.com/embed-menu-preloader.min.js",function(){PreloadEmbedMenu("menu-container",23039,87957)});
+  </script>
