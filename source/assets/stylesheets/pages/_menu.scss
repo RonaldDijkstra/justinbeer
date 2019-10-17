@@ -6,11 +6,15 @@ body.en_menu {
   }
 
   section.untappd-menu {
-    .headline {
-      text-align: center;
+    .ut-menu {
+      font-family: $base-font-family !important;
 
-      h2 {
-        font-size: $base-font-size * 2;
+      h1.menu-title {
+        display: none !important;
+      }
+
+      .menu-info p {
+        display: none !important;
       }
     }
   }
